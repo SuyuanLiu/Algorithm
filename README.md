@@ -1,3 +1,3 @@
 # Leetcode
 
-Leetcode solution written by python.
+Leetcode solutions written by python.
