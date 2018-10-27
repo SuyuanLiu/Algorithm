@@ -4,7 +4,7 @@ Leetcode solutions written by python3 and C++.
 - With short solution idea added in each solution. 
 - A summary of each kind problem is concluded.
 
-If labels is :star2 , it means it's a classic question.
+If labels is :star2: , it means it's a classic question.
 
 ## Index
 
