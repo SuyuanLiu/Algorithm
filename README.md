@@ -8,7 +8,7 @@ If labels is :star2: , it means it's a classic question.
 
 ## Index
 
-BinarySearch(#BinarySearch)
+[BinarySearch](#BinarySearch)
 
 
 
