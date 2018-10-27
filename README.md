@@ -14,7 +14,7 @@ BinarySearch(#BinarySearch)
 
 ## BinarySearch
 ||Problem|Solution|lables| 
-|:---:|:--------:|:-------:|:--------:|
+|---|--------|:-------:|:--------:|
 |1|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)| [Python3](BinarySearch/intersection.py)||
 |2|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)| [Python3](BinarySearch/intersection2.py)||
 
