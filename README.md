@@ -24,4 +24,5 @@ If labels is :octocat: , it means it's a classic question.
 |5|find nums[i]==i|[Python3](Python3/BinarySearch/search.py)|二分搜索|:octocat:|
 |6|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Python3](Python3/BinarySearch/searchInsert.py)|二分法||
 |7|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [Python3](Python3/BinarySearch/searchRotated.py)|二分法||
+|8|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)| [Python3](Python3/BinarySearch/searchRotatedII.py)|二分法||
 
