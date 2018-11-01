@@ -26,5 +26,6 @@ If labels is :octocat: , it means it's a classic question.
 |7|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [Python3](Python3/BinarySearch/searchRotated.py)|||
 |8|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)| [Python3](Python3/BinarySearch/searchRotatedII.py)|||
 |9|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [Python3](Python3/BinarySearch/findMedianSortArrays.py)|二分+归并**TODO**|:octocat:|
+|10|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)| [Python3](Python3/BinarySearch/divide.py)||:octocat:|
 ||[Summary](Python3/BinarySearch/BinarySearchSummary.md)|||
 
