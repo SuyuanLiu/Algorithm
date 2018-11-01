@@ -5,7 +5,7 @@ Leetcode solutions written by python3 and C++.
 - A summary of each kind problem is concluded.
 - Some questions can't find in leetcode, the questions details will be given at the top of the code.
 
-If labels is :octocat: , it means it's a classic question.
+If labels is :octocat: , it means it's a classical question.
 
 ## Index
 
