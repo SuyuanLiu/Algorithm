@@ -25,7 +25,5 @@ If labels is :octocat: , it means it's a classic question.
 |6|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Python3](Python3/BinarySearch/searchInsert.py)|||
 |7|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [Python3](Python3/BinarySearch/searchRotated.py)|||
 |8|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)| [Python3](Python3/BinarySearch/searchRotatedII.py)|||
-
-
 ||[Summary](Python3/BinarySearch/BinarySearchSummary.md)|||
 
