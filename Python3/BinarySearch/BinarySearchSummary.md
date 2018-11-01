@@ -5,7 +5,7 @@
 代码里面有思路的详细解释。
 ## 二分法模板
 使用以下模板，针对不同的问题改变判断条件即可；
-''' python
+``` python
 def binarySearch(self, num, target):
     if not num:
         return -1
@@ -20,7 +20,7 @@ def binarySearch(self, num, target):
         else:
             end = mid -1
     return -1
-'''
+```
 
 ## 典型题目：
 ### 典型二分以及二分变形
