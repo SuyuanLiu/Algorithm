@@ -41,4 +41,6 @@ If labels is :octocat: , it means it's a classical question.
 |2|[3Sum](https://leetcode.com/problems/3sum)| [C++](C++/TwoPointer/threeSum.cpp)||:octocat:|
 |3|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [C++](C++/TwoPointer/threeSumClosest.cpp)|||
 |4|[4Sum](https://leetcode.com/problems/4sum/)| [C++](C++/TwoPointer/fourSum.cpp)|||
+|5|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [C++](C++/TwoPointer/removeDuplicates.cpp)|||
+|6|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [C++](C++/TwoPointer/strStr.cpp)|||
 
