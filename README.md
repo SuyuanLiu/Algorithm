@@ -16,7 +16,7 @@ If labels is :octocat: , it means it's a classical question.
 
 ## BinarySearch
 
-||Questions|Solution|info|lables|
+||Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Binary Search](https://leetcode.com/problems/binary-search/)| [Python3](Python3/BinarySearch/binarySearch.py)|标准二分|:octocat:|
 |1|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)| [Python3](Python3/BinarySearch/intersection.py)|二分法**TODO**||
@@ -34,7 +34,7 @@ If labels is :octocat: , it means it's a classical question.
 
 ## TwoPointer
 
-||Questions|Solution|info|lables|
+||Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [C++](C++/TwoPointer/lengthOfLongestSubstring.cpp)||:octocat:|
 |1|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)| [C++](C++/TwoPointer/maxArea.cpp)||:octocat:|
@@ -43,4 +43,5 @@ If labels is :octocat: , it means it's a classical question.
 |4|[4Sum](https://leetcode.com/problems/4sum/)| [C++](C++/TwoPointer/fourSum.cpp)|||
 |5|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [C++](C++/TwoPointer/removeDuplicates.cpp)|||
 |6|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [C++](C++/TwoPointer/strStr.cpp)|||
+|7|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [C++](C++/TwoPointer/trap.cpp)|Solution3不怎么理解|:octocat:|
 
