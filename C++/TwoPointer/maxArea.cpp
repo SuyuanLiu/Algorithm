@@ -1,4 +1,4 @@
-"""
+/*
 Solution: 
 - 双指针
 - 定义指针i,j作为容器的左右边界， 容器的面积是(j - i) * min(height[i], height[j]);
@@ -15,7 +15,7 @@ Solution 2：时间复杂度 O(n)
   同理，当h=height[j]时；
 - 如果height[i] == height[j], 两个while循环都会进入，这个不会影响，因为最大面积边界要么是[i,j],要么在[i+1, j-1]之内；
   不可能是[i+1,j]或者[i,j+1],这两种情况的面积都小于[i,j];
-"""
+*/
 //  Solution 1
 class Solution {
 public:

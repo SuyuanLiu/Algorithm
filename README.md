@@ -44,4 +44,5 @@ If labels is :octocat: , it means it's a classical question.
 |5|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [C++](C++/TwoPointer/removeDuplicates.cpp)|||
 |6|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [C++](C++/TwoPointer/strStr.cpp)|||
 |7|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [C++](C++/TwoPointer/trap.cpp)|Solution3不怎么理解|:octocat:|
+|8|[Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](C++/TwoPointer/sortColors.cpp)||:octocat:|
 

@@ -1,4 +1,4 @@
-"""
+/*
 Solution:
 - 双指针，时间复杂度 O(n^2);
 - 因为输出结果中不能有重复的数组，所以先对nums进行排序；
@@ -7,7 +7,7 @@ Solution:
 注意：
     C++中vector.size()的类型是unsigned int，所以不能用for(int i=0; i<nums.size()-2; i++)；
     nums.size()-2是一个很大的数值；
-"""
+*/
 
 class Solution {
 public:
