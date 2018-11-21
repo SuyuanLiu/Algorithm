@@ -46,5 +46,5 @@ If labels is :octocat: , it means it's a classical question.
 |7|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [C++](C++/TwoPointer/strStr.cpp)|||
 |8|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [C++](C++/TwoPointer/trap.cpp)|Solution3不怎么理解|:octocat:|
 |9|[Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](C++/TwoPointer/sortColors.cpp)||:octocat:|
-
+|10|[Partition List](https://leetcode.com/problems/partition-list/)| [C++](C++/TwoPointer/partition.cpp)|O(n)O(1) TODO||
 
