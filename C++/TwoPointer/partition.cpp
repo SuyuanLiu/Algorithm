@@ -1,3 +1,11 @@
+/*
+Solution: 时间复杂度O(n),空间复杂度O(n)
+- 另外定义两个链表，分别存放小于x的node和>=x的node；
+- 注意p2->next = NULL，因为p2是原来链表中的结点，后面可能还有其他结点，不置空会导致返回的新链表成环；
+- 这里注意点操作符(.)和箭头操作符(->)的使用，.左边必须是实体，->左边必须是指针，具体看https://blog.csdn.net/qq457163027/article/details/54237782.
+
+Solution 2：时间复杂度O(n),空间复杂度O(1) 有待完成（TODO）。
+*/
 /**
  * Definition for singly-linked list.
  * struct ListNode {
