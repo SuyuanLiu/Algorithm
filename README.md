@@ -49,4 +49,5 @@ If labels is :octocat: , it means it's a classical question.
 |10|[Partition List](https://leetcode.com/problems/partition-list/)| [C++](C++/TwoPointer/partition.cpp)|O(n)O(1) TODO||
 |11|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| [C++](C++/TwoPointer/merge.cpp)|||
 |12|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [C++](C++/TwoPointer/isPalindrome.cpp)|||
-
+|13|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/submissions/)| [C++](C++/TwoPointer/hasCycle.cpp)|||
+|14|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [C++](C++/TwoPointer/detectCycle.cpp)||:octocat:|
