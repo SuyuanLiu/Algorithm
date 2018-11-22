@@ -9,8 +9,8 @@ If labels is :octocat: , it means it's a classical question.
 
 ## Index
 
-[BinarySearch](#BinarySearch)
-[TwoPointer](#TwoPointer)
+- [BinarySearch](#BinarySearch)
+- [TwoPointer](#TwoPointer)
 
 
 
@@ -30,7 +30,7 @@ If labels is :octocat: , it means it's a classical question.
 |9|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [Python3](Python3/BinarySearch/findMedianSortArrays.py)|二分+归并**TODO**|:octocat:|
 |10|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)| [Python3](Python3/BinarySearch/divide.py)||:octocat:|
 |11|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)| [Python3](Python3/BinarySearch/mySqrt.py)||:octocat:|
-||[Summary](Python3/BinarySearch/BinarySearchSummary.md)|||
+|*|[Summary](Python3/BinarySearch/BinarySearchSummary.md)|||
 
 ## TwoPointer
 
