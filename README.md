@@ -11,6 +11,7 @@ If labels is :octocat: , it means it's a classical question.
 
 - [Binary Search](#Binary-Search)
 - [Two Pointer](#Two-Pointer)
+- [Sort](#Sort)
 - [Binary Tree](#Binary-Tree)
 
 
@@ -53,6 +54,18 @@ If labels is :octocat: , it means it's a classical question.
 |13|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/submissions/)| [C++](C++/TwoPointer/hasCycle.cpp)|||
 |14|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [C++](C++/TwoPointer/detectCycle.cpp)||:octocat:|
 |15|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [C++](C++/TwoPointer/minWindow.cpp)||:octocat:|
+
+## Sort
+
+|Idx|Questions|Solution|Info|Lable|
+|---|--------|:-------:|:--------:|:-----:|
+|0|[Bubble Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Bubble.cpp)|冒泡|:octocat:|
+|1|[Select Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Select.cpp)|选择|:octocat:|
+|2|[Insert Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Insert.cpp)|插入|:octocat:|
+|3|[Merge Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Bubble.cpp)|归并|:octocat:|
+|4|[Quick Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Bubble.cpp)|快排|:octocat:|
+|5|[Heap Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Bubble.cpp)|堆排|:octocat:|
+|6|[Shell Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Bubble.cpp)|希尔|:octocat:|
 
 
 ## Binary Tree
