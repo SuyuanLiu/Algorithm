@@ -16,7 +16,7 @@ If labels is :octocat: , it means it's a classical question.
 
 ## BinarySearch
 
-||Questions|Solution|Info|Lable|
+|Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Binary Search](https://leetcode.com/problems/binary-search/)| [Python3](Python3/BinarySearch/binarySearch.py)|标准二分|:octocat:|
 |1|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)| [Python3](Python3/BinarySearch/intersection.py)|二分法**TODO**||
