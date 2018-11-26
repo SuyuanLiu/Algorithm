@@ -6,7 +6,7 @@ Solution:选择排序，时间复杂度O(n^2)，空间复杂度O(1);
 class Solution {
 public:
     void sortIntegers(vector<int> &A) {
-        if(not A.size())
+        if(! A.size())
             return ;
         for(int i = 0; i < A.size(); i++){
             int minIdx = i;

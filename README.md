@@ -62,10 +62,10 @@ If labels is :octocat: , it means it's a classical question.
 |0|[Bubble Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Bubble.cpp)|冒泡|:octocat:|
 |1|[Select Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Select.cpp)|选择|:octocat:|
 |2|[Insert Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Insert.cpp)|插入|:octocat:|
-|3|[Merge Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Bubble.cpp)|归并|:octocat:|
-|4|[Quick Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Bubble.cpp)|快排|:octocat:|
-|5|[Heap Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Bubble.cpp)|堆排|:octocat:|
-|6|[Shell Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Bubble.cpp)|希尔|:octocat:|
+|3|[Merge Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Merge.cpp)|归并|:octocat:|
+|4|[Quick Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Quick.cpp)|快排|:octocat:|
+|5|[Heap Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Heap.cpp)|堆排|:octocat:|
+|6|[Shell Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Shell.cpp)|希尔|:octocat:|
 
 
 ## Binary Tree
