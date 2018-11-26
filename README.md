@@ -64,9 +64,6 @@ If labels is :octocat: , it means it's a classical question.
 |2|[Insert Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Insert.cpp)|插入|:octocat:|
 |3|[Merge Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Merge.cpp)|归并|:octocat:|
 |4|[Quick Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Quick.cpp)|快排|:octocat:|
-|5|[Heap Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Heap.cpp)|堆排|:octocat:|
-|6|[Shell Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Shell.cpp)|希尔|:octocat:|
-
 
 ## Binary Tree
 
