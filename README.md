@@ -9,12 +9,13 @@ If labels is :octocat: , it means it's a classical question.
 
 ## Index
 
-- [BinarySearch](#BinarySearch)
-- [TwoPointer](#TwoPointer)
+- [Binary Search](#Binary-Search)
+- [Two Pointer](#Two-Pointer)
+- [Binary Tree](#Binary-Tree)
 
 
 
-## BinarySearch
+## Binary Search
 
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
@@ -32,7 +33,7 @@ If labels is :octocat: , it means it's a classical question.
 |11|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)| [Python3](Python3/BinarySearch/mySqrt.py)||:octocat:|
 |--|[Summary](Python3/BinarySearch/Summary-BinarySearch.md)|||
 
-## TwoPointer
+## Two Pointer
 
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
@@ -52,3 +53,9 @@ If labels is :octocat: , it means it's a classical question.
 |13|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/submissions/)| [C++](C++/TwoPointer/hasCycle.cpp)|||
 |14|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [C++](C++/TwoPointer/detectCycle.cpp)||:octocat:|
 |15|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [C++](C++/TwoPointer/minWindow.cpp)||:octocat:|
+
+
+## Binary Tree
+
+|Idx|Questions|Solution|Info|Lable|
+|---|--------|:-------:|:--------:|:-----:|
