@@ -30,7 +30,7 @@ If labels is :octocat: , it means it's a classical question.
 |9|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [Python3](Python3/BinarySearch/findMedianSortArrays.py)|二分+归并**TODO**|:octocat:|
 |10|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)| [Python3](Python3/BinarySearch/divide.py)||:octocat:|
 |11|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)| [Python3](Python3/BinarySearch/mySqrt.py)||:octocat:|
-|*|[Summary](Python3/BinarySearch/Summary-BinarySearch.md)|||
+|--|[Summary](Python3/BinarySearch/Summary-BinarySearch.md)|||
 
 ## TwoPointer
 
@@ -52,4 +52,3 @@ If labels is :octocat: , it means it's a classical question.
 |13|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/submissions/)| [C++](C++/TwoPointer/hasCycle.cpp)|||
 |14|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [C++](C++/TwoPointer/detectCycle.cpp)||:octocat:|
 |15|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [C++](C++/TwoPointer/minWindow.cpp)||:octocat:|
-//|*|[Summary](C++/TwoPointer/Summary-TwoPointer.md)|||
