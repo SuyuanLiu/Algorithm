@@ -9,10 +9,7 @@ If labels is :octocat: , it means it's a classical question.
 
 ## Index
 
-[Binary Search](#Binary-Search) &emsp;&emsp;&emsp;  [Two Pointer](#Two-Pointer) &emsp;&emsp;&emsp;  [Sort](#Sort)  
-
-
-[Binary Tree](#Binary-Tree)
+[Binary Search](#Binary-Search) &emsp;&emsp;&emsp;&emsp;  [Two Pointer](#Two-Pointer) &emsp;&emsp;&emsp;&emsp;  [Sort](#Sort)  &emsp;&emsp;&emsp;&emsp; [Binary Tree](#Binary-Tree)
 
 
 
