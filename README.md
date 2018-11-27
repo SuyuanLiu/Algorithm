@@ -9,7 +9,10 @@ If labels is :octocat: , it means it's a classical question.
 
 ## Index
 
-[Binary Search](#Binary-Search) &emsp;&emsp;&emsp;&emsp;  [Two Pointer](#Two-Pointer) &emsp;&emsp;&emsp;&emsp;  [Sort](#Sort)  &emsp;&emsp;&emsp;&emsp; [Binary Tree](#Binary-Tree)
+- [Binary Search](#Binary-Search)
+- [Two Pointer](#Two-Pointer)
+- [Sort](#Sort)  
+- [Binary Tree](#Binary-Tree)
 
 
 
@@ -30,6 +33,7 @@ If labels is :octocat: , it means it's a classical question.
 |10|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)| [Python3](Python3/BinarySearch/divide.py)||:octocat:|
 |11|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)| [Python3](Python3/BinarySearch/mySqrt.py)||:octocat:|
 |--|[Summary](Python3/BinarySearch/Summary-BinarySearch.md)|||   
+
 [Back to Top](#index)
 
 ## Two Pointer
@@ -52,6 +56,7 @@ If labels is :octocat: , it means it's a classical question.
 |13|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/submissions/)| [C++](C++/TwoPointer/hasCycle.cpp)|||
 |14|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [C++](C++/TwoPointer/detectCycle.cpp)||:octocat:|
 |15|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [C++](C++/TwoPointer/minWindow.cpp)||:octocat:|   
+
 [Back to Top](#index)
 
 ## Sort
