@@ -76,5 +76,6 @@ If labels is :octocat: , it means it's a classical question.
 
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
+|0|[Same Tree](https://leetcode.com/problems/same-tree/submissions/)| [C++](C++/BinaryTree/isSameTree.cpp)|||
 
 [Back to Top](#index)
