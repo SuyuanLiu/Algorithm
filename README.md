@@ -78,5 +78,7 @@ If labels is :octocat: , it means it's a classical question.
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Same Tree](https://leetcode.com/problems/same-tree/submissions/)| [C++](C++/BinaryTree/isSameTree.cpp)|||
 |1|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)| [C++](C++/BinaryTree/inorderTraversal.cpp)|中序遍历,迭代方法还没做|:octocat:|
+|2|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)| [C++](C++/BinaryTree/preorderTraversal.cpp)|前序遍历,迭代方法还没做|:octocat:|
+|3|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)| [C++](C++/BinaryTree/postorderTraversal.cpp)|后序遍历,迭代方法还没做|:octocat:|
 
 [Back to Top](#index)

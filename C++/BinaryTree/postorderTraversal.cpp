@@ -9,18 +9,18 @@
  */
 class Solution {
 public:
-    vector<int> inorderTraversal(TreeNode* root) {
+    vector<int> postorderTraversal(TreeNode* root) {
         vector<int> res;
         if(root == NULL)
             return res;
-            res.push_back(root->val);
-
-        vector<int> left = inorderTraversal(root->left);
-        vector<int> right = inorderTraversal(root->right);
-
-        left.insert(left.end(), res.begin(), res.end());
+        res.push_back(root->val);
+        
+        vector<int> left = postorderTraversal(root->left);
+        vector<int> right = postorderTraversal(root->right);
+        
         left.insert(left.end(), right.begin(), right.end());
-
+        left.insert(left.end(), res.begin(), res.end());
+        
         return left;
     }
 };
