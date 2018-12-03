@@ -20,7 +20,7 @@ If labels is :octocat: , it means it's a classical question.
 
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
-|0|[Binary Search](https://leetcode.com/problems/binary-search/)| [Python3](Python3/BinarySearch/binarySearch.py)|标准二分|:octocat:|
+|0|[Binary Search](https://leetcode.com/problems/binary-search/)| [C++](C++/BinarySearch/binarySearch.cpp), [Python3](Python3/BinarySearch/binarySearch.py)|标准二分|:octocat:|
 |1|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)| [Python3](Python3/BinarySearch/intersection.py)|二分法**TODO**||
 |2|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)| [Python3](Python3/BinarySearch/intersection2.py)|二分法**TODO**||
 |3|[Pow(x,n)](https://leetcode.com/problems/powx-n/)| [Python3](Python3/BinarySearch/myPow.py)|二分思想|:octocat:|
