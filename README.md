@@ -92,3 +92,10 @@ If labels is :octocat: , it means it's a classical question.
 |0|[Missing Number](https://leetcode.com/problems/missing-number/)| [C++](C++/Array/missingNumber.cpp)|||
 
 [Back to Top](#index)
+
+
+## String
+ 
+|Idx|Questions|Solution|Info|Lable|
+|---|--------|:-------:|:--------:|:-----:|
+|0|[Reverse String](https://leetcode.com/problems/reverse-string/)| [C++](C++/String/reverseString.cpp)|||
