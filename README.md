@@ -77,9 +77,9 @@ If labels is :octocat: , it means it's a classical question.
 
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
-|0|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)| [C++](C++/BinaryTree/inorderTraversal.cpp)|中序遍历,迭代方法还没做|:octocat:|
-|1|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)| [C++](C++/BinaryTree/preorderTraversal.cpp)|前序遍历,迭代方法还没做|:octocat:|
-|2|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)| [C++](C++/BinaryTree/postorderTraversal.cpp)|后序遍历,迭代方法还没做|:octocat:|
+|0|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)| [C++](C++/BinaryTree/inorderTraversal.cpp)||:octocat:|
+|1|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)| [Python3](Python3/BinaryTree/preorderTraversal.py), [C++](C++/BinaryTree/preorderTraversal.cpp)||:octocat:|
+|2|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)| [C++](C++/BinaryTree/postorderTraversal.cpp)||:octocat:|
 |3|[Same Tree](https://leetcode.com/problems/same-tree/submissions/)| [C++](C++/BinaryTree/isSameTree.cpp)|||
 |4|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [C++](C++/BinaryTree/maxDepth.cpp)|||
 
