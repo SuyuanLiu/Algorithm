@@ -83,6 +83,7 @@ If labels is :octocat: , it means it's a classical question.
 |3|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)| [Python3](Python3/BinaryTree/preorderTraversal.py), [C++](C++/BinaryTree/preorderTraversal.cpp)|前序遍历|:octocat:|
 |4|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)| [Python3](Python3/BinaryTree/postorderTraversal.py), [C++](C++/BinaryTree/postorderTraversal.cpp)|后序遍历|:octocat:|
 |5|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| [Python3](Python3/BinaryTree/levelOrder.py)|层序遍历|:octocat:|
+|6|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Python3](Python3/BinaryTree/zigzagLevelOrder.py)|z字形遍历|:octocat:|
 
 [Back to Top](#index)
 
