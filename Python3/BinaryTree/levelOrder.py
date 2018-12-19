@@ -55,26 +55,46 @@ class Solution:
         :type root: TreeNode
         :rtype: List[List[int]]
         """
+        # if not root:
+        #     return []
+        
+        # res = []
+        # Q = [root]
+        
+        # while Q:
+        #     level_res = []
+        #     sub_Q = []
+            
+        #     while Q:
+        #         temp = Q.pop(0)
+        #         level_res.append(temp.val)
+        #         if temp.left:
+        #             sub_Q.append(temp.left)
+        #         if temp.right:
+        #             sub_Q.append(temp.right)
+                    
+        #     res.append(level_res)
+        #     Q = sub_Q
+            
+        # return res
+
         if not root:
             return []
-        
-        res = []
         Q = [root]
-        
+        ans = []
+        nextQ, temp = [], []
         while Q:
-            level_res = []
-            sub_Q = []
+            node = Q.pop(0)
+            temp.append(node.val)
+            if node.left:
+                nextQ.append(node.left)
+            if node.right:
+                nextQ.append(node.right)
+                
+            if not Q:
+                Q = nextQ
+                ans.append(temp)
+                nextQ, temp = [], []
+                
+        return ans
             
-            while Q:
-                temp = Q.pop(0)
-                level_res.append(temp.val)
-                if temp.left:
-                    sub_Q.append(temp.left)
-                if temp.right:
-                    sub_Q.append(temp.right)
-                    
-            res.append(level_res)
-            Q = sub_Q
-            
-        return res
-                    
