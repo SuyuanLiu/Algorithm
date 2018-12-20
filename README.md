@@ -95,6 +95,7 @@ If labels is :octocat: , it means it's a classical question.
 |7|[Construct Binary Tree from Preorder and Inorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [Python3](Python3/BinaryTree/buildTree.py)|重构二叉树,TODO:非递归|:octocat:|
 |8|[Construct Binary Tree from Inorder and Postorder](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)| [Python3](Python3/BinaryTree/buildTree2.py)|TODO:非递归||
 |9|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)| [Python3](Python3/BinaryTree/isSymmetric.py)||:octocat:|
+|10|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [Python3](Python3/BinaryTree/maxDepth.py)||:octocat:|
 
 [Back to Top](#index)
 
