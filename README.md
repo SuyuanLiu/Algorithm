@@ -14,6 +14,8 @@ If labels is :octocat: , it means it's a classical question.
 - [Sort](#Sort)  
 - [Binary Tree](#Binary-Tree)
 - [Array](#Array)
+- [String](#String)
+- [Linked List](#Linked-List)
 
 
 
@@ -36,6 +38,8 @@ If labels is :octocat: , it means it's a classical question.
 |--|[Summary](Python3/BinarySearch/Summary-BinarySearch.md)|||   
 
 [Back to Top](#index)
+
+
 
 ## Two Pointer
 
@@ -60,6 +64,8 @@ If labels is :octocat: , it means it's a classical question.
 
 [Back to Top](#index)
 
+
+
 ## Sort
 
 |Idx|Questions|Solution|Info|Lable|
@@ -72,6 +78,8 @@ If labels is :octocat: , it means it's a classical question.
 |--|[Summary](https://suyuanliu.github.io/2018/09/20/Alg-Sort/)|||
 
 [Back to Top](#index)
+
+
 
 ## Binary Tree
 
@@ -87,6 +95,8 @@ If labels is :octocat: , it means it's a classical question.
 
 [Back to Top](#index)
 
+
+
 ## Array
 
 |Idx|Questions|Solution|Info|Lable|
@@ -96,8 +106,22 @@ If labels is :octocat: , it means it's a classical question.
 [Back to Top](#index)
 
 
+
+
 ## String
  
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Reverse String](https://leetcode.com/problems/reverse-string/)| [C++](C++/String/reverseString.cpp)|||
+
+[Back to Top](#index)
+
+
+
+## Linked List
+
+|Idx|Questions|Solution|Info|Lable|
+|---|--------|:-------:|:--------:|:-----:|
+|0|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python3](Python3/LinkedList/reverseList.py)|||
+
+[Back to Top](#index)
