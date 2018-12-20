@@ -97,6 +97,7 @@ If labels is :octocat: , it means it's a classical question.
 |9|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)| [Python3](Python3/BinaryTree/isSymmetric.py)||:octocat:|
 |10|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [Python3](Python3/BinaryTree/maxDepth.py)||:octocat:|
 |11|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)| [Python3](Python3/BinaryTree/invertTree.py)||:octocat:|
+|12|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)| [Python3](Python3/BinaryTree/isBalanced.py)||:octocat:|
 
 [Back to Top](#index)
 
