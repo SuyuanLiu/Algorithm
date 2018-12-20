@@ -92,6 +92,7 @@ If labels is :octocat: , it means it's a classical question.
 |4|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)| [Python3](Python3/BinaryTree/postorderTraversal.py), [C++](C++/BinaryTree/postorderTraversal.cpp)|后序遍历|:octocat:|
 |5|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| [Python3](Python3/BinaryTree/levelOrder.py)|层序遍历|:octocat:|
 |6|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Python3](Python3/BinaryTree/zigzagLevelOrder.py)|z字形遍历|:octocat:|
+|7|[Construct Binary Tree from Preorder and Inorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [Python3](Python3/BinaryTree/buildTree.py)|重构二叉树|:octocat:|
 
 [Back to Top](#index)
 
@@ -124,5 +125,6 @@ If labels is :octocat: , it means it's a classical question.
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python3](Python3/LinkedList/reverseList.py)|||
 |1|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [Python3](Python3/LinkedList/reverseBetween.py)|||
+
 
 [Back to Top](#index)
