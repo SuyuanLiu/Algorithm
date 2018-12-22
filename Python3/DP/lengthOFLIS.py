@@ -8,6 +8,7 @@ Solution 1: 时间复杂度O(n^2),空间复杂度O(n)
 - dp[i]的值是，前i-1个数中，小于nums[i]并且长度最大的那个加1；
 
 Solution 2:
+https://blog.csdn.net/wbin233/article/details/77570070
 
 '''
 class Solution:
