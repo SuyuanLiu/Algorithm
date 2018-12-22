@@ -16,6 +16,7 @@ If labels is :octocat: , it means it's a classical question.
 - [Array](#Array)
 - [String](#String)
 - [Linked List](#Linked-List)
+- [Dynamic Programming](#Dynamic-Programming)
 
 
 
@@ -90,7 +91,7 @@ If labels is :octocat: , it means it's a classical question.
 |2|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)| [Python3](Python3/BinaryTree/inorderTraversal.py), [C++](C++/BinaryTree/inorderTraversal.cpp)|中序遍历|:octocat:|
 |3|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)| [Python3](Python3/BinaryTree/preorderTraversal.py), [C++](C++/BinaryTree/preorderTraversal.cpp)|前序遍历|:octocat:|
 |4|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)| [Python3](Python3/BinaryTree/postorderTraversal.py), [C++](C++/BinaryTree/postorderTraversal.cpp)|后序遍历|:octocat:|
-|5|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| [Python3](Python3/BinaryTree/levelOrder.py)|层序遍历|:octocat:|
+|5|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| [Python3](Python3/BinaryTree/levelOrder.py)|层序遍历|:octocat:百度|
 |6|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Python3](Python3/BinaryTree/zigzagLevelOrder.py)|z字形遍历|:octocat:|
 |7|[Construct Binary Tree from Preorder and Inorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [Python3](Python3/BinaryTree/buildTree.py)|重构二叉树,TODO:非递归|:octocat:|
 |8|[Construct Binary Tree from Inorder and Postorder](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)| [Python3](Python3/BinaryTree/buildTree2.py)|TODO:非递归||
@@ -130,8 +131,15 @@ If labels is :octocat: , it means it's a classical question.
 
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
-|0|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python3](Python3/LinkedList/reverseList.py)|||
+|0|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python3](Python3/LinkedList/reverseList.py)||:octocat:|
 |1|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [Python3](Python3/LinkedList/reverseBetween.py)|||
 
+
+[Back to Top](#index)
+
+## Dynamic Programming
+|Idx|Questions|Solution|Info|Lable|
+|---|--------|:-------:|:--------:|:-----:|
+|0|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [Python3](Python3/DP/lengthOFLIS.py)||:octocat:百度|
 
 [Back to Top](#index)
