@@ -111,6 +111,8 @@ If labels is :octocat: , it means it's a classical question.
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Missing Number](https://leetcode.com/problems/missing-number/)| [C++](C++/Array/missingNumber.cpp)|||
+|1|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)| [Python3](Python3/Array/findDuplicate.py)||:octocat:|
+|2|[Find All Duplicate Number](https://leetcode.com/problems/find-all-duplicates-in-an-array/submissions/)| [Python3](Python3/Array/findAllDuplicate.py)||:octocat:|
 
 [Back to Top](#index)
 
