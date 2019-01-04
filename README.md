@@ -103,6 +103,7 @@ If labels is :octocat: , it means it's a classical question.
 |14|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)| [Python3](Python3/BinaryTree/pathSumII.py)|TODO:BFS,参考链接在代码里|:octocat:|
 |15|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)| [Python3](Python3/BinaryTree/kthSmallest.py)||:octocat:|
 |16|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| [Python3](Python3/BinaryTree/flatten.py)|||
+|17|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)| [Python3](Python3/BinaryTree/Codec.py)||:octocat:|
 
 [Back to Top](#index)
 
