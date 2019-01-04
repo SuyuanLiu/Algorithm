@@ -106,7 +106,9 @@ If labels is :octocat: , it means it's a classical question.
 |17|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)| [Python3](Python3/BinaryTree/Codec.py)||:octocat:|
 |18|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| [Python3](Python3/BinaryTree/lowestCommonAncestor.py)|只是一颗普通的树TODO|:octocat:|
 |19|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
-|  [Python3](Python3/BinaryTree/lowestCommonAncestorBST.py)|||
+| [Python3](Python3/BinaryTree/lowestCommonAncestorBST.py)|||
+|20|[Same Tree](https://leetcode.com/problems/same-tree/)| [Python3](Python3/BinaryTree/isSameTree.py)|||
+
 [Back to Top](#index)
 
 
