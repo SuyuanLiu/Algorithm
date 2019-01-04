@@ -15,6 +15,11 @@ Solution 3:
 - 参考：https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/152682/Python-simple-recursive-solution-with-detailed-explanation
 - 如果p,q都在当前这棵最小的树里，那么它们的最小公共祖先就是当前的root；
   否则他们共存于当前root的左子树或者右子树中。（具体看代码中注释）
+
+
+如果是一棵二叉搜索树，题目：https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+                    解法：Python3/BinaryTree/lowestCommonAncestorBST.py
+如果只是一棵树，连二叉树都不是:(TODO)
 '''
 # Definition for a binary tree node.
 # class TreeNode:
