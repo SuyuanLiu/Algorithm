@@ -2,6 +2,7 @@
 '''
 Solution:
 - 序列化与反序列化，这边使用的是一个队列，注意二者要通过相同的遍历模式；
+- 注意：序列化时需要加入逗号来区分，因为当数字出现负数或者两位数时就会出现多个字符；(还要注意字符串的开头也是逗号)
 '''
 # Definition for a binary tree node.
 # class TreeNode(object):
