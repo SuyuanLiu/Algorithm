@@ -17,6 +17,7 @@ If labels is :octocat: , it means it's a classical question.
 - [String](#String)
 - [Linked List](#Linked-List)
 - [Dynamic Programming](#Dynamic-Programming)
+- [BFS](#BFS)
 
 
 
@@ -154,5 +155,13 @@ If labels is :octocat: , it means it's a classical question.
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [Python3](Python3/DP/lengthOFLIS.py)|TODO:O(nlogn)参考链接在代码里|:octocat:百度|
+
+[Back to Top](#index)
+
+
+## BFS
+|Idx|Questions|Solution|Info|Lable|
+|---|--------|:-------:|:--------:|:-----:|
+|0|网格中走到某一位置的最短路径| [Python3](Python3/BFS/minPath.py)|题目要求在代码内|:octocat:|
 
 [Back to Top](#index)
