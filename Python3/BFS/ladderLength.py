@@ -1,21 +1,48 @@
 # -*- coding:UTF-8 -*-
 '''
-Solution:
-- BFS
-- 把各个单词看成是图中的点，两个单词间只相差一个单词的话，两个单词之间就有连线；
-- 建立一个队列，存储每层遍历到的单词；对已经遍历过的单词做标记，比如清空；
+Solution: BFS
 
 Solution 1:
 在Leetcode上代码测试不通过，超时了，代码逻辑没有问题。（Python语言的缘故）
+- 把各个单词看成是图中的点，两个单词间只相差一个单词的话，两个单词之间就有连线；
+- 建立一个队列，存储每层遍历到的单词；对已经遍历过的单词做标记，比如清空；
 
 Solution 2:
-在Disscus页面，借助广大网友的思路，对代码做了如下改进，让代码跑的快一点。
-
-
+参考这位朋友的代码：https://leetcode.com/problems/word-ladder/discuss/40810/Python-BFS-solution
+代码能够通过leetcode测试了。
+- 对当前单词，对它只改变一个字母，看改变后的单词是否在wordList里面，在的话，这两个单词之间就存在连线；
+- 对已经遍历过的单词进行标记，放到visited里面去；
+- 这边把wordList和visited都变成set，是哈希结构，访问查找时间复杂度是O(1)，可以提高速度；
 
 '''
 # Solution 2
-
+import string
+class Solution:  
+    def ladderLength(self, beginWord, endWord, wordList):
+        """
+        :type beginWord: str
+        :type endWord: str
+        :type wordList: List[str]
+        :rtype: int
+        """
+        if not wordList:
+            return 0
+        
+        wordList = set(wordList)
+        stack = [(beginWord, 1)]
+        visited = set()
+        while stack:
+            word, cnt = stack.pop(0)
+            if word == endWord:
+                return cnt
+            for i in range(len(word)):
+                for c in string.ascii_lowercase:   # for c in 'abcdefghijklm....xyz'
+                    tmp = word[:i] + c + word[i+1:]
+                    if tmp not in visited and tmp in wordList:
+                        stack.append((tmp, cnt+1))
+                        visited.add(tmp)
+                        
+        return 0
 
 # Solution 1
 class Solution:
