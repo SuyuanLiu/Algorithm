@@ -11,6 +11,8 @@ Solution 1:
 Solution 2:
 在Disscus页面，借助广大网友的思路，对代码做了如下改进，让代码跑的快一点。
 
+
+
 '''
 # Solution 2
 
