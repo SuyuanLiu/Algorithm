@@ -164,5 +164,6 @@ If labels is :octocat: , it means it's a classical question.
 |---|--------|:-------:|:--------:|:-----:|
 |0|网格中走到某一位置的最短路径| [Python3](Python3/BFS/minPath.py)|题目要求在代码内|:octocat:|
 |1|[Perfect Squares](https://leetcode.com/problems/perfect-squares/submissions/)| [Python3](Python3/BFS/numSquares.py)||:octocat:|
+|2|[Word Ladder](https://leetcode.com/problems/word-ladder/)| [Python3](Python3/BFS/ladderLength.py)||:octocat:|
 
 [Back to Top](#index)
