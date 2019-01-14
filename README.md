@@ -173,6 +173,6 @@ If labels is :octocat: , it means it's a classical question.
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)| [Python3](Python3/DFS/maxAreaOfIsland.py)||:octocat:|
-
+|1|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python3](Python3/DFS/numIslands.py)||:octocat:|
 
 [Back to Top](#index)
