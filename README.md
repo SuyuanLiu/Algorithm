@@ -124,6 +124,7 @@ If labels is :octocat: , it means it's a classical question.
 |0|[Missing Number](https://leetcode.com/problems/missing-number/)| [C++](C++/Array/missingNumber.cpp)|||
 |1|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)| [Python3](Python3/Array/findDuplicate.py)|Solution 3**|:octocat:|
 |2|[Find All Duplicate Number](https://leetcode.com/problems/find-all-duplicates-in-an-array/submissions/)| [Python3](Python3/Array/findAllDuplicate.py)||:octocat:|
+|3|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)| [Python3](Python3/Array/myCalendar.py)||Google|
 
 [Back to Top](#index)
 
@@ -135,7 +136,7 @@ If labels is :octocat: , it means it's a classical question.
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Reverse String](https://leetcode.com/problems/reverse-string/)| [C++](C++/String/reverseString.cpp)|||
-|1|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)| [Python3](Python3/String/numUniqueEmails.py)|||
+|1|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)| [Python3](Python3/String/numUniqueEmails.py)||Google|
 
 [Back to Top](#index)
 
