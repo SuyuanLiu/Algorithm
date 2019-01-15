@@ -135,6 +135,7 @@ If labels is :octocat: , it means it's a classical question.
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Reverse String](https://leetcode.com/problems/reverse-string/)| [C++](C++/String/reverseString.cpp)|||
+|1|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)| [Python3](Python3/String/numUniqueEmails.py)|||
 
 [Back to Top](#index)
 
