@@ -15,7 +15,7 @@ Solution 1: DP, TC-O(NC), SC-O(C)
 
 Solution 2: DP
 - 参考高票答案
-- 
+- 用字典存放前i个数组成的所有的可能的情况;
 '''
 # Solution 2
 class Solution:
