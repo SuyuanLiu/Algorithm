@@ -17,6 +17,32 @@ Solution 2: DP
 - 参考高票答案
 - 
 '''
+# Solution 2
+class Solution:
+    def findTargetSumWays(self, nums, S):
+        """
+        :type nums: List[int]
+        :type S: int
+        :rtype: int
+        """
+        if (sum(nums) + S) % 2:
+            return 0
+        
+        if nums[0] != 0:
+            dic = {nums[0]:1, -nums[0]:1}
+        else:
+            dic = {0:2}
+            
+        for i in range(1, len(nums)):
+            temp_dict = {}
+            num = nums[i]
+            for d in dic:
+                temp_dict[d+num] = temp_dict.get(d+num, 0) + dic.get(d, 0)
+                temp_dict[d-num] = temp_dict.get(d-num, 0) + dic.get(d, 0)
+            dic = temp_dict
+            
+        return dic.get(S, 0)
+
 
 # Solution 1
 class Solution:
