@@ -7,6 +7,7 @@ Leetcode solutions written by python3 and C++.
 
 If labels is :octocat: , it means it's a classical question.
 
+
 ## Index
 
 - [Binary Search](#Binary-Search)
@@ -16,9 +17,9 @@ If labels is :octocat: , it means it's a classical question.
 - [Array](#Array)
 - [String](#String)
 - [Linked List](#Linked-List)
-- [Dynamic Programming](#Dynamic-Programming)
 - [BFS](#BFS)
 - [DFS](#DFS)
+- [Dynamic Programming](#Dynamic-Programming)
 
 
 ## Binary Search
@@ -153,16 +154,6 @@ If labels is :octocat: , it means it's a classical question.
 
 [Back to Top](#index)
 
-## Dynamic Programming
-|Idx|Questions|Solution|Info|Lable|
-|---|--------|:-------:|:--------:|:-----:|
-|0|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [Python3](Python3/DP/lengthOFLIS.py)|TODO:O(nlogn)参考链接在代码里|:octocat:百度|
-|1|[背包问题] | [Python3](Python3/DP/knapsack.py)|**0-1背包**题目描述在代码内|:octocat:|
-|2|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [Python3](Python3/DP/canPartition.py)|**0-1背包**|:octocat:|
-|3|[Target Sum](https://leetcode.com/problems/target-sum/)| [Python3](Python3/DP/findTargetSumWays.py)|**0-1背包, DFS**|:octocat:|
-
-[Back to Top](#index)
-
 
 ## BFS
 |Idx|Questions|Solution|Info|Lable|
@@ -181,5 +172,16 @@ If labels is :octocat: , it means it's a classical question.
 |1|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python3](Python3/DFS/numIslands.py)||:octocat:|
 |2|[Friend Circles](https://leetcode.com/problems/friend-circles/)| [Python3](Python3/DFS/findCircleNum.py)||:octocat:|
 
+
+[Back to Top](#index)
+
+
+## Dynamic Programming
+|Idx|Questions|Solution|Info|Lable|
+|---|--------|:-------:|:--------:|:-----:|
+|0|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [Python3](Python3/DP/lengthOFLIS.py)|TODO:O(nlogn)参考链接在代码里|:octocat:百度|
+|1|[背包问题] | [Python3](Python3/DP/knapsack.py)|**0-1背包**题目描述在代码内|:octocat:|
+|2|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [Python3](Python3/DP/canPartition.py)|**0-1背包**|:octocat:|
+|3|[Target Sum](https://leetcode.com/problems/target-sum/)| [Python3](Python3/DP/findTargetSumWays.py)|**0-1背包, TODO:DFS**|:octocat:|
 
 [Back to Top](#index)
