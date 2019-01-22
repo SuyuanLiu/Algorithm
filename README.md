@@ -171,16 +171,13 @@ If labels is :octocat: , it means it's a classical question.
 |0|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)| [Python3](Python3/DFS/maxAreaOfIsland.py)||:octocat:|
 |1|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python3](Python3/DFS/numIslands.py)||:octocat:|
 |2|[Friend Circles](https://leetcode.com/problems/friend-circles/)| [Python3](Python3/DFS/findCircleNum.py)||:octocat:|
-|3|[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)| [Python3](Python3/DFS/solve.py)||:octocat:|
-|4|[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python3](Python3/DFS/letterCombinations.py)||:octocat:|
-|5|[46. Permutations](https://leetcode.com/problems/permutations/)| [Python3](Python3/DFS/permute.py)||:octocat:|
-|6|[47. Permutations II](https://leetcode.com/problems/permutations-ii/)| [Python3](Python3/DFS/permuteII.py)|没想明白！||
+|3|[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)| [Python3](Python3/DFS/solve.py)|BackTracking|:octocat:|
+|4|[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python3](Python3/DFS/letterCombinations.py)|BackTracking|:octocat:|
+|5|[46. Permutations](https://leetcode.com/problems/permutations/)| [Python3](Python3/DFS/permute.py)|BackTracking|:octocat:|
+|6|[47. Permutations II](https://leetcode.com/problems/permutations-ii/)| [Python3](Python3/DFS/permuteII.py)|没想明白！BackTracking||
+|7|[77. Combinations](https://leetcode.com/problems/combinations/)| [Python3](Python3/DFS/combine.py)|BackTracking,**TODO:**Solution 2||
 
-||[417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)| **TODO**
-||[93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/)| **TODO**
-||[79. Word Search](https://leetcode.com/problems/word-search/description/)| **TODO**
-||[257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)| **TODO**
-
+||**TODO:**417,93,79,257,39
 
 [Back to Top](#index)
 
