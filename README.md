@@ -174,6 +174,7 @@ If labels is :octocat: , it means it's a classical question.
 |3|[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)| [Python3](Python3/DFS/solve.py)||:octocat:|
 |4|[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python3](Python3/DFS/letterCombinations.py)||:octocat:|
 |5|[46. Permutations](https://leetcode.com/problems/permutations/)| [Python3](Python3/DFS/permute.py)||:octocat:|
+|6|[47. Permutations II](https://leetcode.com/problems/permutations-ii/)| [Python3](Python3/DFS/permuteII.py)|没想明白！||
 
 ||[417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/description/)| **TODO**
 ||[93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/)| **TODO**
