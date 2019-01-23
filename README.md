@@ -78,6 +78,7 @@ If labels is :octocat: , it means it's a classical question.
 |2|[Insert Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Insert.cpp)|插入|:octocat:|
 |3|[Merge Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Merge.cpp)|归并|:octocat:|
 |4|[Quick Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Quick.cpp)|快排|:octocat:|
+|5|[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)| [Python3](Python3/Sort/findKthLargest.py)||:octocat:|
 |--|[Summary](https://suyuanliu.github.io/2018/09/20/Alg-Sort/)|||
 
 [Back to Top](#index)
