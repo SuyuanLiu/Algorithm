@@ -76,7 +76,7 @@ If labels is :octocat: , it means it's a classical question.
 |0|[Bubble Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Bubble.cpp)|冒泡|:octocat:|
 |1|[Select Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Select.cpp)|选择|:octocat:|
 |2|[Insert Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Insert.cpp)|插入|:octocat:|
-|3|[Merge Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Merge.cpp)|归并|:octocat:|
+|3|[Merge Sort](https://www.lintcode.com/problem/sort-integers/description)| [Python3](Python3/Sort/Merge.py), [C++](C++/Sort/Merge.cpp)|归并|:octocat:|
 |4|[Quick Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Quick.cpp)|快排|:octocat:|
 |5|[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)| [Python3](Python3/Sort/findKthLargest.py)||:octocat:|
 |--|[Summary](https://suyuanliu.github.io/2018/09/20/Alg-Sort/)|||
@@ -177,6 +177,7 @@ If labels is :octocat: , it means it's a classical question.
 |5|[46. Permutations](https://leetcode.com/problems/permutations/)| [Python3](Python3/DFS/permute.py)|BackTracking|:octocat:|
 |6|[47. Permutations II](https://leetcode.com/problems/permutations-ii/)| [Python3](Python3/DFS/permuteII.py)|没想明白！BackTracking||
 |7|[77. Combinations](https://leetcode.com/problems/combinations/)| [Python3](Python3/DFS/combine.py)|BackTracking,**TODO:**Solution 2||
+|8|[78. Subsets](https://leetcode.com/problems/subsets/)| [Python3](Python3/DFS/subsets.py)|BackTracking||
 
 ||**TODO:**417,93,79,257,39
 
@@ -190,5 +191,6 @@ If labels is :octocat: , it means it's a classical question.
 |1|[背包问题] | [Python3](Python3/DP/knapsack.py)|**0-1背包**题目描述在代码内|:octocat:|
 |2|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [Python3](Python3/DP/canPartition.py)|**0-1背包**|:octocat:|
 |3|[Target Sum](https://leetcode.com/problems/target-sum/)| [Python3](Python3/DP/findTargetSumWays.py)|**0-1背包, TODO:DFS**|:octocat:|
+|4|[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| [Python3](Python3/DP/climbStairs.py)|斐波那契数列||
 
 [Back to Top](#index)
