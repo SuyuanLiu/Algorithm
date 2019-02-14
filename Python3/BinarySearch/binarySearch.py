@@ -7,6 +7,31 @@ Solution:
                                         target < nums[mid]， 说明只能在右侧寻找；
 - 时间复杂度：O(logN), 递归算法额外使用了栈的信息；
 '''
+# Solution: Using classical template
+class Solution:
+    def search(self, nums: 'List[int]', target: 'int') -> 'int':
+        if not nums:
+            return -1
+        
+        start, end = 0, len(nums)-1
+        while start + 1 < end:                 # To avoid infinite loop
+            mid = start + (end - start) // 2   # To avoid data overflow
+            if target < nums[mid]:
+                end = mid
+            elif target > nums[mid]:
+                start = mid
+            else:
+                return mid
+            
+        if target == nums[start]:
+            return start
+        if target == nums[end]:
+            return end
+        
+        return -1
+            
+        
+
 
 class Solution(object):
     # Solution 1: non-recursion
@@ -44,6 +69,3 @@ class Solution(object):
     
     def search(self, nums, target):
         return self.binarySearch(nums, 0, len(nums)-1, target)
-    
-
-        
