@@ -16,6 +16,14 @@ Solution:                                           /\  /\
 
 Additionaly：
 - 拿到这个题目，第一反应是遍历一遍数组，时间复杂度是O(n)，这可以找到所有的peak，而题目只要返回任意peak即可，说明有更好的做法；
+
+Follow up:
+Question:
+如果数组相邻的数有重复的值，上述方法是否可行。
+Solution：
+上述方法不可行，只能有for循环扫一遍，O(n).
+原因：（我自己想的，不知道对不对）
+    在二分的时候，如果出现 o--o--o 这样的情况，不能确定峰值到底在哪一侧。
 '''
 class Solution:
     def findPeakElement(self, nums: 'List[int]') -> 'int':
