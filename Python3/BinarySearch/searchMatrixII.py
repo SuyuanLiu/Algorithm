@@ -8,8 +8,10 @@ Solution:
 Follow up:
 Question: https://www.lintcode.com/problem/search-a-2d-matrix-ii/description
 如果数组中有重复的值，找出target出现了几次；
+
 Solution: 
-从右上角开始，如果target比它大，就往下走；小就往左走；相等则向左下角走；
+- 时间复杂度：O(m+n)
+- 从右上角开始，如果target比它大，就往下走；小就往左走；相等则向左下角走；(相当于每次去掉一行或者一列，时间复杂度可以从这里考虑)
 '''
 class Solution:
     def searchMatrix(self, matrix, target):
