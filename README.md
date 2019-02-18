@@ -137,7 +137,7 @@ If labels is :octocat: , it means it's a classical question.
 |4|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/submissions/)| [Python3](Python3/Array/myCalendarII.py)|TODO:Soluton2|G|
 |5|[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python3](Python3/Array/removeDuplicates.py)|也在two pointer里面||
 |6|[80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Python3](Python3/Array/removeDuplicatesII.py)|也在two pointer里面|| 
-|7|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Python3](Python3/Array/merge.py)|也在two pointer里面|| 
+|7|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Python3](Python3/Array/merge.py)|也在two pointer里面, add Follow up|| 
 
 [Back to Top](#index)
 
