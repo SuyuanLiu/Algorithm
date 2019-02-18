@@ -43,6 +43,7 @@ If labels is :octocat: , it means it's a classical question.
 |14|[240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)| [Python3](Python3/BinarySearch/searchMatrixII.py)|Follow up added|:octocat:|
 |15|[278. First Bad Version](https://leetcode.com/problems/first-bad-version/)| [Python3](Python3/BinarySearch/firstBadVersion.py)|||
 |16|[162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [Python3](Python3/BinarySearch/findPeakElement.py)|||
+|17|[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)[Python3](Python3/BinarySearch/findMin.py)|||
 |--|[Summary](Python3/BinarySearch/Summary-BinarySearch.md)|||   
 
 [Back to Top](#index)
