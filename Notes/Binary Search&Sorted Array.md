@@ -42,7 +42,8 @@ def binarySearch(nums, target):
 
 ## 总结
 
-分析题目，把题目转化为find first position of, find last position of的类型；
+- 分析题目，把题目转化为find first position of, find last position of的类型；
+- while循环之后，一定要对start，end做判断，因为当数组只有一个数值的时候，就不会进入到while循环里面去；
 
 
 
