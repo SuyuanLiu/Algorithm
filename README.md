@@ -32,7 +32,7 @@ If labels is :octocat: , it means it's a classical question.
 |3|[Pow(x,n)](https://leetcode.com/problems/powx-n/)| [Python3](Python3/BinarySearch/myPow.py)|二分思想|:octocat:|
 |4|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)| [Python3](Python3/BinarySearch/countNodes.py)|二分思想|:octocat:|
 |5|find nums[i]==i|[Python3](Python3/BinarySearch/search.py)|题目描述在代码内|:octocat:|
-|6|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Python3](Python3/BinarySearch/searchInsert.py)|||
+|6|[35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Python3](Python3/BinarySearch/searchInsert.py)|||
 |7|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [Python3](Python3/BinarySearch/searchRotated.py)|||
 |8|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)| [Python3](Python3/BinarySearch/searchRotatedII.py)|||
 |9|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [Python3](Python3/BinarySearch/findMedianSortArrays.py)|二分+归并**TODO**|:octocat:|

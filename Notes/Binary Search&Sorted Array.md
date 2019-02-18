@@ -40,6 +40,15 @@ def binarySearch(nums, target):
 - 最后跳出while循环时，start和end相邻或相交，要再对start和end做判断；至于先判断start还是先判断end，看具体情况，这边是找第一个出现的位置，所以要先判断start，如果是要找最后一个出现的位置，那就要先判断end；
 
 
+## 总结
+
+分析题目，把题目转化为find first position of, find last position of的类型；
 
 
+
+## 题目练习
+
+- [Binary Search](https://leetcode.com/problems/binary-search/)
+- [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 
