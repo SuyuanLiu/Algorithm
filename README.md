@@ -61,7 +61,7 @@ If labels is :octocat: , it means it's a classical question.
 |3|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)| [C++](C++/TwoPointer/threeSumClosest.cpp)|||
 |4|[4Sum](https://leetcode.com/problems/4sum/)| [C++](C++/TwoPointer/fourSum.cpp)|||
 |5|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [C++](C++/TwoPointer/removeDuplicates.cpp)， [Python3](Python3/Array/removeDuplicates.py)|||
-|6|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [C++](C++/TwoPointer/removeDuplicatesII.cpp)|||
+|6|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [C++](C++/TwoPointer/removeDuplicatesII.cpp), [Python3](Python3/Array/removeDuplicatesII.py)|||
 |7|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [C++](C++/TwoPointer/strStr.cpp)|||
 |8|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [C++](C++/TwoPointer/trap.cpp)|Solution3不怎么理解|:octocat:|
 |9|[Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](C++/TwoPointer/sortColors.cpp)||:octocat:|
@@ -136,6 +136,7 @@ If labels is :octocat: , it means it's a classical question.
 |3|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)| [Python3](Python3/Array/myCalendar.py)||G|
 |4|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/submissions/)| [Python3](Python3/Array/myCalendarII.py)|TODO:Soluton2|G|
 |5|[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python3](Python3/Array/removeDuplicates.py)|也在two pointer里面||
+|6|[80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Python3](Python3/Array/removeDuplicatesII.py)|也在two pointer里面|| 
 
 [Back to Top](#index)
 
