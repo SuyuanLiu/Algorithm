@@ -68,3 +68,31 @@ class Solution:
         return False
 
 # Solution 3
+class Solution:
+    def toCordinate(self, num, col):
+        return num // col, num % col
+    
+    def searchMatrix(self, matrix: 'List[List[int]]', target: 'int') -> 'bool':
+        if not matrix or not matrix[0]:
+            return False
+        
+        row, col = len(matrix), len(matrix[0])
+        start, end = 0, row * col - 1
+        while start + 1 < end:
+            mid = start + (end - start) // 2
+            i, j = self.toCordinate(mid, col)
+            if target == matrix[i][j]:
+                return True
+            elif target > matrix[i][j]:
+                start = mid
+            else:
+                end = mid
+                
+        i, j = self.toCordinate(start, col)
+        if target == matrix[i][j]:
+            return True
+        i, j = self.toCordinate(end, col)
+        if target == matrix[i][j]:
+            return True
+        
+        return False
