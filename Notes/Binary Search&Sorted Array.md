@@ -1,5 +1,12 @@
 # Binary Search
 
+- [Binary Search Template](#inary-Search-通用模版)
+- [Rotated Array](#Rotated-Array)
+- [Find Median in Two Sorted Array](#Find-Median-in-Two-Sorted-Array)
+- [Reverse in 3 steps](#三步翻转法)
+- [Summary](#总结)
+- [Leetcode](#题目练习)
+
 ## Binary Search 通用模版
 
 Question：在一个有序数组中，找到target的位置（第一个出现的位置，最后一个出现的位置，任意位置）。
@@ -38,6 +45,21 @@ def binarySearch(nums, target):
 - ``mid = start + (end - start) // 2``这是为了防止数据过大出现溢出（等价于：mid = (start + end) // 2)；
 - ``if nums[mid] == target:   end = mid`` 这边是要找到第一个出现的位置，所以应该尽可能的往左边去找，所以让 end = mid；如果是要找最后一个出现的位置，那就要start = mid；
 - 最后跳出while循环时，start和end相邻或相交，要再对start和end做判断；至于先判断start还是先判断end，看具体情况，这边是找第一个出现的位置，所以要先判断start，如果是要找最后一个出现的位置，那就要先判断end；
+
+## Rotated Array
+
+find minimum
+find target
+why O(n) with duplicates
+
+
+## Find Median in Two Sorted Array
+
+find Kth element in two sorted array
+
+
+## 三步翻转法
+
 
 
 ## 总结
