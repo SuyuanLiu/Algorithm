@@ -40,7 +40,8 @@ If labels is :octocat: , it means it's a classical question.
 |11|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)| [Python3](Python3/BinarySearch/mySqrt.py)||:octocat:|
 |12|[34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [Python3](Python3/BinarySearch/searchRange.py)|||
 |13|[74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| [Python3](Python3/BinarySearch/searchMatrix.py)|||
-|14|[240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|  [Python3](Python3/BinarySearch/searchMatrixII.py)|Follow up added|:octocat:|
+|14|[240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)| [Python3](Python3/BinarySearch/searchMatrixII.py)|Follow up added|:octocat:|
+|15|[278. First Bad Version](https://leetcode.com/problems/first-bad-version/)| [Python3](Python3/BinarySearch/firstBadVersion.py)|||
 |--|[Summary](Python3/BinarySearch/Summary-BinarySearch.md)|||   
 
 [Back to Top](#index)
