@@ -53,19 +53,34 @@ find target
 why O(n) with duplicates
 
 
-## Find Median in Two Sorted Array
+## Find Median in Two Sorted Array（Hard）
 
-find Kth element in two sorted array
+find Kth element in two sorted array 姐妹题，find median就是找到第 (m+n)/2 大的数（如果两数组长度和为奇数的话）。
 
 
 ## 三步翻转法
 
+假设有Rotate 数组，要求把它变为原来的样子（之前的有序数组），比如：4，5，1，2，3 --> 1,2,3,4,5
+
+三步翻转法就是：（先找到翻转的点）
+- 先翻转4，5，    变为 5，4，1，2，3
+- 再翻转1，2，3， 变为 5，4，3，2，1
+- 然后整体翻转，  变为 1，2，3，4，5
 
 
 ## 总结
 
-- 分析题目，把题目转化为find first position of, find last position of的类型；
+- 分析题目，把题目转化为find first position of, find last position of的类型，使用二分法的模板；
 - while循环之后，一定要对start，end做判断，因为当数组只有一个数值的时候，就不会进入到while循环里面去；
+- rotated array要画图进行分析；
+- Find Median in Two Sorted Array
+- 三步翻转法
+
+两个重难点：
+- [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)  
+  [Python3](Python3/BinarySearch/searchRotated.py)
+- [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)   
+  [Python3](Python3/BinarySearch/findMedianSortArrays.py)
 
 
 
@@ -74,4 +89,28 @@ find Kth element in two sorted array
 - [Binary Search](https://leetcode.com/problems/binary-search/)
 - [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 - [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+- [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+- [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+- [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
+- [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+
+Rotated Array
+- [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+- [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+- [154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+
+Median of Two Sorted Array
+- [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+
+
+Array
+- [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+- [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+- [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+- [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
+
+三步翻转法
+- [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
+- [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
 
