@@ -66,7 +66,7 @@ If labels is :octocat: , it means it's a classical question.
 |8|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [C++](C++/TwoPointer/trap.cpp)|Solution3不怎么理解|:octocat:|
 |9|[Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](C++/TwoPointer/sortColors.cpp)||:octocat:|
 |10|[Partition List](https://leetcode.com/problems/partition-list/)| [C++](C++/TwoPointer/partition.cpp)|O(n)O(1) TODO||
-|11|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| [C++](C++/TwoPointer/merge.cpp)|||
+|11|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| [C++](C++/TwoPointer/merge.cpp), [Python3](Python3/Array/merge.py)|||
 |12|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [C++](C++/TwoPointer/isPalindrome.cpp)|||
 |13|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/submissions/)| [C++](C++/TwoPointer/hasCycle.cpp)|||
 |14|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [C++](C++/TwoPointer/detectCycle.cpp)||:octocat:|
@@ -137,6 +137,7 @@ If labels is :octocat: , it means it's a classical question.
 |4|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/submissions/)| [Python3](Python3/Array/myCalendarII.py)|TODO:Soluton2|G|
 |5|[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python3](Python3/Array/removeDuplicates.py)|也在two pointer里面||
 |6|[80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Python3](Python3/Array/removeDuplicatesII.py)|也在two pointer里面|| 
+|7|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Python3](Python3/Array/merge.py)|也在two pointer里面|| 
 
 [Back to Top](#index)
 
