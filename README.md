@@ -97,7 +97,7 @@ If labels is :octocat: , it means it's a classical question.
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Same Tree](https://leetcode.com/problems/same-tree/submissions/)| [C++](C++/BinaryTree/isSameTree.cpp)|||
-|1|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [C++](C++/BinaryTree/maxDepth.cpp)|||
+|1|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Python3](Python3/BinaryTree/maxDepth.py), [C++](C++/BinaryTree/maxDepth.cpp)|||
 |2|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)| [Python3](Python3/BinaryTree/inorderTraversal.py), [C++](C++/BinaryTree/inorderTraversal.cpp)|中序遍历|:octocat:|
 |3|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)| [Python3](Python3/BinaryTree/preorderTraversal.py), [C++](C++/BinaryTree/preorderTraversal.cpp)|前序遍历|:octocat:|
 |4|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)| [Python3](Python3/BinaryTree/postorderTraversal.py), [C++](C++/BinaryTree/postorderTraversal.cpp)|后序遍历|:octocat:|
