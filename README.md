@@ -97,7 +97,7 @@ If labels is :octocat: , it means it's a classical question.
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Same Tree](https://leetcode.com/problems/same-tree/submissions/)| [C++](C++/BinaryTree/isSameTree.cpp)|||
-|1|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Python3](Python3/BinaryTree/maxDepth.py), [C++](C++/BinaryTree/maxDepth.cpp)|||
+|1|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Python3](Python3/BinaryTree/maxDepth.py), [C++](C++/BinaryTree/maxDepth.cpp)||:octocat:|
 |2|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)| [Python3](Python3/BinaryTree/inorderTraversal.py), [C++](C++/BinaryTree/inorderTraversal.cpp)|中序遍历|:octocat:|
 |3|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)| [Python3](Python3/BinaryTree/preorderTraversal.py), [C++](C++/BinaryTree/preorderTraversal.cpp)|前序遍历|:octocat:|
 |4|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)| [Python3](Python3/BinaryTree/postorderTraversal.py), [C++](C++/BinaryTree/postorderTraversal.cpp)|后序遍历|:octocat:|
@@ -106,21 +106,21 @@ If labels is :octocat: , it means it's a classical question.
 |7|[Construct Binary Tree from Preorder and Inorder](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)| [Python3](Python3/BinaryTree/buildTree.py)|重构二叉树,TODO:非递归|:octocat:|
 |8|[Construct Binary Tree from Inorder and Postorder](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)| [Python3](Python3/BinaryTree/buildTree2.py)|TODO:非递归||
 |9|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)| [Python3](Python3/BinaryTree/isSymmetric.py)||:octocat:|
-|10|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [Python3](Python3/BinaryTree/maxDepth.py)||:octocat:|
-|11|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)| [Python3](Python3/BinaryTree/invertTree.py)||:octocat:|
-|12|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)| [Python3](Python3/BinaryTree/isBalanced.py)||:octocat:|
-|13|[Path Sum](https://leetcode.com/problems/path-sum/)| [Python3](Python3/BinaryTree/hasPathSum.py)|TODO:BFS,DFS||
-|14|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)| [Python3](Python3/BinaryTree/pathSumII.py)|TODO:BFS,参考链接在代码里|:octocat:|
-|15|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)| [Python3](Python3/BinaryTree/kthSmallest.py)||:octocat:|
-|16|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| [Python3](Python3/BinaryTree/flatten.py)|||
-|17|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)| [Python3](Python3/BinaryTree/Codec.py)||:octocat:|
-|18|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| [Python3](Python3/BinaryTree/lowestCommonAncestor.py)|只是一颗普通的树TODO|:octocat:|
-|19|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)| [Python3](Python3/BinaryTree/lowestCommonAncestorBST.py)|||
-|20|[Same Tree](https://leetcode.com/problems/same-tree/)| [Python3](Python3/BinaryTree/isSameTree.py)|||
-|21|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)| [Python3](Python3/BinaryTree/isSubtree.py)||:octocat:|
-|22|二叉树的下一个节点| [Python3](Python3/BinaryTree/nextNode.py)|题目描述在代码内|:octocat:|
-|23|二叉搜索树的后序遍历| [Python3](Python3/BinaryTree/isBST.py)|题目描述在代码内|:octocat:|
-|24|二叉搜索树与双向链表| [Python3](Python3/BinaryTree/Convert.py)|题目描述在代码内；代码需要再理解一下|:octocat:|
+|10|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)| [Python3](Python3/BinaryTree/invertTree.py)||:octocat:|
+|11|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)| [Python3](Python3/BinaryTree/isBalanced.py)||:octocat:|
+|12|[Path Sum](https://leetcode.com/problems/path-sum/)| [Python3](Python3/BinaryTree/hasPathSum.py)|TODO:BFS,DFS||
+|13|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)| [Python3](Python3/BinaryTree/pathSumII.py)|TODO:BFS,参考链接在代码里|:octocat:|
+|14|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)| [Python3](Python3/BinaryTree/kthSmallest.py)||:octocat:|
+|15|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)| [Python3](Python3/BinaryTree/flatten.py)|||
+|16|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)| [Python3](Python3/BinaryTree/Codec.py)||:octocat:|
+|17|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)| [Python3](Python3/BinaryTree/lowestCommonAncestor.py)|只是一颗普通的树TODO|:octocat:|
+|18|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)| [Python3](Python3/BinaryTree/lowestCommonAncestorBST.py)|||
+|19|[Same Tree](https://leetcode.com/problems/same-tree/)| [Python3](Python3/BinaryTree/isSameTree.py)|||
+|20|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)| [Python3](Python3/BinaryTree/isSubtree.py)||:octocat:|
+|21|二叉树的下一个节点| [Python3](Python3/BinaryTree/nextNode.py)|题目描述在代码内|:octocat:|
+|22|二叉搜索树的后序遍历| [Python3](Python3/BinaryTree/isBST.py)|题目描述在代码内|:octocat:|
+|23|二叉搜索树与双向链表| [Python3](Python3/BinaryTree/Convert.py)|题目描述在代码内；代码需要再理解一下|:octocat:|
+|24|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Python3](Python3/BinaryTree/maxPathSum.py)||:octocat:| 
 
 [Back to Top](#index)
 

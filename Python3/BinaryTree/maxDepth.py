@@ -2,7 +2,7 @@
 '''
 Solution 2,3
 应该都算是分治法，3的分治法更简洁一点，要学会用分治法。
-
+时间复杂度：O（n）
 '''
 # Definition for a binary tree node.
 # class TreeNode:
