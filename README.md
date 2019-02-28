@@ -121,6 +121,7 @@ If labels is :octocat: , it means it's a classical question.
 |22|二叉搜索树的后序遍历| [Python3](Python3/BinaryTree/isBST.py)|题目描述在代码内|:octocat:|
 |23|二叉搜索树与双向链表| [Python3](Python3/BinaryTree/Convert.py)|题目描述在代码内；代码需要再理解一下|:octocat:|
 |24|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Python3](Python3/BinaryTree/maxPathSum.py)||:octocat:| 
+|25|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Python3](Python3/BinaryTree/isValidBST.py)|||
 
 [Back to Top](#index)
 
