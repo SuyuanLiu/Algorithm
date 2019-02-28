@@ -124,6 +124,7 @@ If labels is :octocat: , it means it's a classical question.
 |25|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Python3](Python3/BinaryTree/isValidBST.py)|||
 |26|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Python3](Python3/BinaryTree/insertIntoBST.py)|||
 |27|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Python3](Python3/BinaryTree/BSTIterator.py)|||
+|28|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|[Python3](Python3/BinaryTree/deleteNode.py)|||
 
 [Back to Top](#index)
 
