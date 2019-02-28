@@ -11,10 +11,15 @@ Solution 2:
 - 记录路径findNode中，使用了path，route两个变量，path记录现在所处路径，route为最终的结果；
   注意当root==p时，不可以route=path,这是浅拷贝，最终的结果是二者指向共同区域，随着path变化，route也在变化!!!
 
-Solution 3:
+Solution 3: 分治法
 - 参考：https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/152682/Python-simple-recursive-solution-with-detailed-explanation
 - 如果p,q都在当前这棵最小的树里，那么它们的最小公共祖先就是当前的root；
   否则他们共存于当前root的左子树或者右子树中。（具体看代码中注释）
+
+- 分治法，让这个函数返回以当前root为根节点的LCA；
+- 实际上就是在这棵树左右两侧去找点p，q，看它们在哪边；如果分别在root的左右子树中，那他们的LCA就是root；
+  如果一侧没有，在另一侧首先发现一个点，那么这个点就是LCA；
+- 可以具体带入一个例子去看，更容易明白。
 
 
 如果是一棵二叉搜索树，题目：https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
@@ -37,16 +42,14 @@ class Solution:
         :type q: TreeNode
         :rtype: TreeNode
         """
-        if p == root or q == root:
+        if not root or root == p or root == q:
             return root
         
-        L, R = None, None
+        # divide
+        L = self.lowestCommonAncestor(root.left, p, q)
+        R = self.lowestCommonAncestor(root.right, p, q)
         
-        if root.left:
-            L = self.lowestCommonAncestor(root.left, p, q)
-        if root.right:
-            R = self.lowestCommonAncestor(root.right, p, q)
-        
+        # conquer
         # 说明p,q分别在root的左右两个子树里，那么root就是二者的LCA
         if L and R:  
             return root
@@ -131,4 +134,3 @@ class Solution:
                 s.append(node.left)    
                 
         return ancestor
-        
