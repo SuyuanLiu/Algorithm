@@ -167,6 +167,7 @@ If labels is :octocat: , it means it's a classical question.
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [Python3](Python3/LinkedList/reverseList.py)||:octocat:|
 |1|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)| [Python3](Python3/LinkedList/reverseBetween.py)|||
+|2|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Python3](Python3/linkedList/deleteDuplicates.py)|||
 
 
 [Back to Top](#index)
