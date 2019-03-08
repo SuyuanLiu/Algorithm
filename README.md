@@ -171,7 +171,7 @@ If labels is :octocat: , it means it's a classical question.
 |3|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Python3](Python3/linkedList/deleteDuplicatesII.py)|||
 |4|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Python3](Python3/linkedList/mergeTwoLists.py)|||
 |5|[Partition List](https://leetcode.com/problems/partition-list/)|[Python3](Python3/linkedList/partition.py)|||
-
+|6|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Python3](Python3/linkedList/removeElements.py)|||
 
 [Back to Top](#index)
 
