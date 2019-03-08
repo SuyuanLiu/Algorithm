@@ -1,7 +1,11 @@
 # -*- coding:UTF-8 -*-
 '''
 Solution:
-- 注意slow和fast都从head开始，while判断是判断fast和fast.next即可；
+- slow和fast都从head开始，while判断是判断fast和fast.next即可；
+
+说明：
+- slow和head从同一个位置出发，当有偶数个，返回的中点是后面一个中点；
+- 当slow=head, fast=head.next, 偶数个时返回第一个中点；
 '''
 # Definition for singly-linked list.
 # class ListNode:

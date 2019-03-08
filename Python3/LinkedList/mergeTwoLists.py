@@ -5,7 +5,7 @@ Solution 1:
 
 Solution 2：
 - 不使用额外空间
-- 
+- 下面使用cur指向当前已排好序的最后一位
 '''
 # Solution 2
 # Definition for singly-linked list.
