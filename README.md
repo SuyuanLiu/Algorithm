@@ -156,6 +156,7 @@ If labels is :octocat: , it means it's a classical question.
 |0|[Reverse String](https://leetcode.com/problems/reverse-string/)| [C++](C++/String/reverseString.cpp)|||
 |1|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)| [Python3](Python3/String/numUniqueEmails.py)||G|
 |2|[151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Python3](Python3/String/reverseWords.py)|||
+|3|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[Python3](Python3/String/removeDuplicateLetters.py)|||
 
 [Back to Top](#index)
 
