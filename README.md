@@ -218,7 +218,10 @@ If labels is :octocat: , it means it's a classical question.
 |1|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Python3](Python3/DP/minPathSum.py)|Matrix DP||
 |2|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Python3](Python3/DP/uniquePaths.py)|Matrix DP||
 |3|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Python3](Python3/DP/uniquePathsWithObstacles.py)|Matrix DP||
-|4|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| [Python3](Python3/DP/climbStairs.py)|Sequence DP||
+|4|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Python3](Python3/DP/climbStairs.py)|Sequence DP||
+|5|[Jump Game](https://leetcode.com/problems/jump-game/)|[Python3](Python3/DP/canJump.py)|Sequence DP||
+
+
 |5|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [Python3](Python3/DP/lengthOFLIS.py)|TODO:O(nlogn)参考链接在代码里|:octocat:百度|
 
 |*|[背包问题] | [Python3](Python3/DP/knapsack.py)|**0-1背包**题目描述在代码内|:octocat:|
