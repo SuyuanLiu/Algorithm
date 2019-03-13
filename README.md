@@ -220,6 +220,7 @@ If labels is :octocat: , it means it's a classical question.
 |3|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Python3](Python3/DP/uniquePathsWithObstacles.py)|Matrix DP||
 |4|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Python3](Python3/DP/climbStairs.py)|Sequence DP||
 |5|[Jump Game](https://leetcode.com/problems/jump-game/)|[Python3](Python3/DP/canJump.py)|Sequence DP||
+|6|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Python3](Python3/DP/canJump.py)|Sequence DP||
 
 
 |5|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [Python3](Python3/DP/lengthOFLIS.py)|TODO:O(nlogn)参考链接在代码里|:octocat:百度|

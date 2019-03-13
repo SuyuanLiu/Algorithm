@@ -9,10 +9,32 @@ Tips:
 for j in range(i-1, -1, -1) 替代 for j in range(i)
 因为如果这个数组所有的数字都是1，从0开始查找太耗时间了。
 
-Solution 2: TODO
-- 贪心， O（n）
+Solution 2: 
+- 贪心， O(n)
+- 维护一个变量maxRearchOut，表示从当前位置所能达到的最远的距离
+- i <= maxRearchOut,只有满足这个条件，才能继续在maxRearchout这个距离内往前移动i，使得有可能到达更远的距离；
+  如果不满足这个条件，也就是说从起始位置无法到达i这个点了，更不用说后面其他的点了，maxRearchOut就不再更新；
+  最后比较一下maxRearchOut，看是否能到达数组尾端即可。
 
 '''
+# Solution 2
+class Solution(object):
+    def canJump(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
+        if not nums:
+            return True
+        
+        maxRearchOut = 0
+        for i in range(len(nums)):
+            if i <= maxRearchOut:
+                maxRearchOut = max(maxRearchOut, nums[i]+i)
+            
+        return maxRearchOut >= len(nums) - 1
+            
+
 
 # Solution 1
 class Solution(object):
