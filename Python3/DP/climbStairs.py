@@ -7,7 +7,7 @@ Solution 2:
 - 优化空间，dp[i]只与dp[i-1],dp[i-2]相关，可以用两个变量把他们存下来；
 '''
 # Solution 2
-class Solution:
+class Solution(object):
     def climbStairs(self, n):
         """
         :type n: int
@@ -17,14 +17,15 @@ class Solution:
             return n
         
         n1, n2 = 1, 2
-        res = 0
-        while n - 2:
-            res = n1 + n2
-            n1 = n2
-            n2 = res
+        while n > 2:
+            tmp = n2
+            n2 = n2 + n1
+            n1 = tmp
             n -= 1
             
-        return res
+        return n2
+            
+        
         
 
 
@@ -45,4 +46,3 @@ class Solution:
             dp[i] = dp[i-1] + dp[i-2]
             
         return dp[-1]
-        
