@@ -221,5 +221,6 @@ If labels is :octocat: , it means it's a classical question.
 |4|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| [Python3](Python3/DP/climbStairs.py)|斐波那契数列||
 |5|[Triangle](https://leetcode.com/problems/triangle/)|[Python3](Python3/DP/minimumTotal.py)|Matrix DP||
 |6|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Python3](Python3/DP/minPathSum.py)|Matrix DP||
+|7|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Python3](Python3/DP/uniquePaths.py)|Matrix DP||
 
 [Back to Top](#index)
