@@ -218,6 +218,7 @@ If labels is :octocat: , it means it's a classical question.
 |1|[背包问题] | [Python3](Python3/DP/knapsack.py)|**0-1背包**题目描述在代码内|:octocat:|
 |2|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [Python3](Python3/DP/canPartition.py)|**0-1背包**|:octocat:|
 |3|[Target Sum](https://leetcode.com/problems/target-sum/)| [Python3](Python3/DP/findTargetSumWays.py)|**0-1背包, TODO:DFS**|:octocat:|
-|4|[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| [Python3](Python3/DP/climbStairs.py)|斐波那契数列||
+|4|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| [Python3](Python3/DP/climbStairs.py)|斐波那契数列||
+|5|[Triangle](https://leetcode.com/problems/triangle/)|[Python3](Python3/DP/minimumTotal.py)|||
 
 [Back to Top](#index)
