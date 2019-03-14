@@ -139,10 +139,11 @@ If labels is :octocat: , it means it's a classical question.
 |2|[Find All Duplicate Number](https://leetcode.com/problems/find-all-duplicates-in-an-array/submissions/)| [Python3](Python3/Array/findAllDuplicate.py)||:octocat:|
 |3|[My Calendar I](https://leetcode.com/problems/my-calendar-i/)| [Python3](Python3/Array/myCalendar.py)||G|
 |4|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/submissions/)| [Python3](Python3/Array/myCalendarII.py)|TODO:Soluton2|G|
-|5|[26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python3](Python3/Array/removeDuplicates.py)|也在two pointer里面||
-|6|[80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Python3](Python3/Array/removeDuplicatesII.py)|也在two pointer里面|| 
+|5|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Python3](Python3/Array/removeDuplicates.py)|也在two pointer里面||
+|6|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Python3](Python3/Array/removeDuplicatesII.py)|也在two pointer里面|| 
 |7|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Python3](Python3/Array/merge.py)|也在two pointer里面, add Follow up|| 
-|8|[189. Rotate Array](https://leetcode.com/problems/rotate-array/)|[Python3](Python3/Array/rotate.py)||| 
+|8|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Python3](Python3/Array/rotate.py)||| 
+|9|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)[Python3](Python3/Array/mergeIntervals.py)||| 
 
 [Back to Top](#index)
 
@@ -219,8 +220,8 @@ If labels is :octocat: , it means it's a classical question.
 |2|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Python3](Python3/DP/uniquePaths.py)|Matrix DP||
 |3|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)|[Python3](Python3/DP/uniquePathsWithObstacles.py)|Matrix DP||
 |4|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Python3](Python3/DP/climbStairs.py)|Sequence DP||
-|5|[Jump Game](https://leetcode.com/problems/jump-game/)|[Python3](Python3/DP/canJump.py)|Sequence DP||
-|6|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Python3](Python3/DP/jump.py)|Sequence DP||
+|5|[Jump Game](https://leetcode.com/problems/jump-game/)|[Python3](Python3/DP/canJump.py)|Sequence DP,贪心算法||
+|6|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Python3](Python3/DP/jump.py)|Sequence DP,贪心算法||
 
 
 |5|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [Python3](Python3/DP/lengthOFLIS.py)|TODO:O(nlogn)参考链接在代码里|:octocat:百度|
