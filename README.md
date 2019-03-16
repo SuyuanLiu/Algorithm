@@ -143,7 +143,8 @@ If labels is :octocat: , it means it's a classical question.
 |6|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Python3](Python3/Array/removeDuplicatesII.py)|也在two pointer里面|| 
 |7|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Python3](Python3/Array/merge.py)|也在two pointer里面, add Follow up|| 
 |8|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Python3](Python3/Array/rotate.py)||| 
-|9|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)[Python3](Python3/Array/mergeIntervals.py)||| 
+|9|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)[Python3](Python3/Array/mergeIntervals.py)|||
+|10|[Candy](https://leetcode.com/problems/candy/)|[Pythons](Python3/Array/candy.py)|Greedy||
 
 [Back to Top](#index)
 
