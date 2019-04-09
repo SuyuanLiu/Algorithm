@@ -1,10 +1,10 @@
 # Dynamic Programming
 
 Outline
-- [](#)
-- [](#)
-- [](#)
-- [](#)
+- [](#题目)
+- [](#什么时候用DP)
+- [](#DP的四个要素)
+- [](#面试常见的四种类型)
 - [](#)
 
 ## 题目
@@ -27,7 +27,7 @@ DP一般使用循环的方式实现，从底到上面，自底向上的DP（这�
 - yes/no
 - count（比如方案的个数等），如果让你列出所有方案，一定不是dp，用递归(eg，k Sum, k Sum II)
 
-同时，满足这个条件：给出的数据不让排序，调位置，can not sort/swap
+同时，满足这个条件（这个条件不是很重要）：给出的数据不让排序，调位置，can not sort/swap
 
 （比如，longest consecutive sequence，给的是一个集合，集合随便换顺序，这个就不是DP）
 
@@ -75,5 +75,43 @@ answer：dp[-1]
 - word segmentation
 - longest increasing subsequence(LIS), subsequence可以不连续，sub...是连续的
 
+### Two Sequences 
+
+一般是给两个数组/字符串，去看他们的匹配关系。
+
+- state：f[i][j]表示第一个sequence的前i个数字（字符）**配上**第二个sequence的前j个数字（字符）....
+- function：f[i][j]研究第i个与第j个之间的关系
+- initialize：第一行和第一列，f[0][i], f[i][0]
+- answer: f[-1][-1]
+
+注意，假设两个数组/字符串的长度分别为n，m，一般这个DP数组长度会设一个DP[n+1][m+1]，一般要留出第0个这个；
+
+题目：
+- longest common subsequence(LCS), 子序列不一定连续；要时候要return最长的子序列，DP也是能做的；
+- longest common substring,子串一定要连续（或者可以用两层循环去做，普通第方法）
+- Edit distance，把word1变为word2最少需要多少步（利用LCS即可，找到他们的最长子序列）/或者：直接用DP，上面最开始的方程（手机拍了照片）
+- Distinct subsequence(照片)
+- Interleaving string(照片), f[i][j]表示s1的前i个字符，s2的前j个字符能否组成s3的前i+j个字符；
+
+### BackPack 背包
+
+判断能否用动归，第二个条件，不能交换，这个条件，对背包来说不满足。背包问题很明显，一下子就能看出来。他有一个取和的过程。
+
+- 背包问题（lintcode92）(照片)，二维数组，有一维表示和的形式；要么取这个商品，要么不取；时间复杂度O(nm),空间复杂度O(nm)，空间复杂度可以优化到O(m),因为第i仅与第i-1相关。
+- 背包2（lintcode152）(照片)
+- K sum（lintcode89）(照片)
+- minimun adjustment cost(lintcode 91)(照片)
 
 
+## 记忆化搜索
+
+先把它写成分治的搜索，在return之前，把结果存起来，下次就不用算了，直接读取就好了（相当于一个cache的作用），traingel那题，本来2^n的复杂度，后面就会变成n^2的复杂度，就几乎变成DP了。（照片DFS）
+
+
+## other
+
+- 拓扑排序用来判断图里面是否有环
+
+
+练习：
+- wildcard matching(lintcode 192),可以用动归，但最快的不是动归，而是有限状态自动机（凡是匹配的，都是这个方法）

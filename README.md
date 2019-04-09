@@ -223,9 +223,9 @@ If labels is :octocat: , it means it's a classical question.
 |4|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Python3](Python3/DP/climbStairs.py)|Sequence DP||
 |5|[Jump Game](https://leetcode.com/problems/jump-game/)|[Python3](Python3/DP/canJump.py)|Sequence DP,贪心算法||
 |6|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Python3](Python3/DP/jump.py)|Sequence DP,贪心算法||
-
-
-|5|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [Python3](Python3/DP/lengthOFLIS.py)|TODO:O(nlogn)参考链接在代码里|:octocat:百度|
+|7|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [Python3](Python3/DP/lengthOFLIS.py)|TODO:O(nlogn)参考链接在代码里|:octocat:百度|
+|8|[Longest Common Subsequence](https://www.lintcode.com/problem/longest-common-subsequence/description)|[Python3](Python3/DP/LCS.py)|Two Sequences||
+|9|[Longest Common Substring](https://www.lintcode.com/problem/longest-common-substring/description)|[Python3](Python3/DP/longestCommonSubstring.py)|Two Sequences||
 
 |*|[背包问题] | [Python3](Python3/DP/knapsack.py)|**0-1背包**题目描述在代码内|:octocat:|
 |*|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [Python3](Python3/DP/canPartition.py)|**0-1背包**|:octocat:|
