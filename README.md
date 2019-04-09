@@ -227,6 +227,7 @@ If labels is :octocat: , it means it's a classical question.
 |8|[Longest Common Subsequence](https://www.lintcode.com/problem/longest-common-subsequence/description)|[Python3](Python3/DP/LCS.py)|Two Sequences||
 |9|[Longest Common Substring](https://www.lintcode.com/problem/longest-common-substring/description)|[Python3](Python3/DP/longestCommonSubstring.py)|Two Sequences||
 |10|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[Python3](Python3/DP/minDistance.py)|Two Sequences||
+|11|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Python3](Python3/DP/numDistinct.py)|Two Sequences||
 
 |*|[背包问题] | [Python3](Python3/DP/knapsack.py)|**0-1背包**题目描述在代码内|:octocat:|
 |*|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [Python3](Python3/DP/canPartition.py)|**0-1背包**|:octocat:|
