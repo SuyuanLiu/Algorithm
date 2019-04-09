@@ -38,13 +38,13 @@ If labels is :octocat: , it means it's a classical question.
 |9|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)| [Python3](Python3/BinarySearch/findMedianSortArrays.py)|二分+归并**TODO**|:octocat:|
 |10|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)| [Python3](Python3/BinarySearch/divide.py)||:octocat:|
 |11|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)| [Python3](Python3/BinarySearch/mySqrt.py)||:octocat:|
-|12|[34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [Python3](Python3/BinarySearch/searchRange.py)|||
-|13|[74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| [Python3](Python3/BinarySearch/searchMatrix.py)|||
-|14|[240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)| [Python3](Python3/BinarySearch/searchMatrixII.py)|Follow up added|:octocat:|
-|15|[278. First Bad Version](https://leetcode.com/problems/first-bad-version/)| [Python3](Python3/BinarySearch/firstBadVersion.py)|||
-|16|[162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [Python3](Python3/BinarySearch/findPeakElement.py)|||
-|17|[153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [Python3](Python3/BinarySearch/findMin.py)|||
-|18|[154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)| [Python3](Python3/BinarySearch/findMinII.py)|||
+|12|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [Python3](Python3/BinarySearch/searchRange.py)|||
+|13|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)| [Python3](Python3/BinarySearch/searchMatrix.py)|||
+|14|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)| [Python3](Python3/BinarySearch/searchMatrixII.py)|Follow up added|:octocat:|
+|15|[First Bad Version](https://leetcode.com/problems/first-bad-version/)| [Python3](Python3/BinarySearch/firstBadVersion.py)|||
+|16|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [Python3](Python3/BinarySearch/findPeakElement.py)|||
+|17|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [Python3](Python3/BinarySearch/findMin.py)|||
+|18|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)| [Python3](Python3/BinarySearch/findMinII.py)|||
 |--|[Summary](Python3/BinarySearch/Summary-BinarySearch.md)|||   
 
 [Back to Top](#index)
@@ -85,7 +85,7 @@ If labels is :octocat: , it means it's a classical question.
 |2|[Insert Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Insert.cpp)|插入|:octocat:|
 |3|[Merge Sort](https://www.lintcode.com/problem/sort-integers/description)| [Python3](Python3/Sort/Merge.py), [C++](C++/Sort/Merge.cpp)|归并|:octocat:|
 |4|[Quick Sort](https://www.lintcode.com/problem/sort-integers/description)| [C++](C++/Sort/Quick.cpp)|快排|:octocat:|
-|5|[215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)| [Python3](Python3/Sort/findKthLargest.py)||:octocat:|
+|5|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)| [Python3](Python3/Sort/findKthLargest.py)||:octocat:|
 |--|[Summary](https://suyuanliu.github.io/2018/09/20/Alg-Sort/)|||
 
 [Back to Top](#index)
@@ -157,7 +157,7 @@ If labels is :octocat: , it means it's a classical question.
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Reverse String](https://leetcode.com/problems/reverse-string/)| [C++](C++/String/reverseString.cpp)|||
 |1|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)| [Python3](Python3/String/numUniqueEmails.py)||G|
-|2|[151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Python3](Python3/String/reverseWords.py)|||
+|2|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Python3](Python3/String/reverseWords.py)|||
 |3|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)|[Python3](Python3/String/removeDuplicateLetters.py)|||
 
 [Back to Top](#index)
@@ -201,12 +201,12 @@ If labels is :octocat: , it means it's a classical question.
 |0|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)| [Python3](Python3/DFS/maxAreaOfIsland.py)||:octocat:|
 |1|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python3](Python3/DFS/numIslands.py)||:octocat:|
 |2|[Friend Circles](https://leetcode.com/problems/friend-circles/)| [Python3](Python3/DFS/findCircleNum.py)||:octocat:|
-|3|[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)| [Python3](Python3/DFS/solve.py)|BackTracking|:octocat:|
-|4|[17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python3](Python3/DFS/letterCombinations.py)|BackTracking|:octocat:|
-|5|[46. Permutations](https://leetcode.com/problems/permutations/)| [Python3](Python3/DFS/permute.py)|BackTracking|:octocat:|
-|6|[47. Permutations II](https://leetcode.com/problems/permutations-ii/)| [Python3](Python3/DFS/permuteII.py)|没想明白！BackTracking||
-|7|[77. Combinations](https://leetcode.com/problems/combinations/)| [Python3](Python3/DFS/combine.py)|BackTracking,**TODO:**Solution 2||
-|8|[78. Subsets](https://leetcode.com/problems/subsets/)| [Python3](Python3/DFS/subsets.py)|BackTracking||
+|3|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)| [Python3](Python3/DFS/solve.py)|BackTracking|:octocat:|
+|4|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python3](Python3/DFS/letterCombinations.py)|BackTracking|:octocat:|
+|5|[Permutations](https://leetcode.com/problems/permutations/)| [Python3](Python3/DFS/permute.py)|BackTracking|:octocat:|
+|6|[Permutations II](https://leetcode.com/problems/permutations-ii/)| [Python3](Python3/DFS/permuteII.py)|没想明白！BackTracking||
+|7|[Combinations](https://leetcode.com/problems/combinations/)| [Python3](Python3/DFS/combine.py)|BackTracking,**TODO:**Solution 2||
+|8|[Subsets](https://leetcode.com/problems/subsets/)| [Python3](Python3/DFS/subsets.py)|BackTracking||
 
 ||**TODO:**417,93,79,257,39
 
@@ -226,6 +226,7 @@ If labels is :octocat: , it means it's a classical question.
 |7|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [Python3](Python3/DP/lengthOFLIS.py)|TODO:O(nlogn)参考链接在代码里|:octocat:百度|
 |8|[Longest Common Subsequence](https://www.lintcode.com/problem/longest-common-subsequence/description)|[Python3](Python3/DP/LCS.py)|Two Sequences||
 |9|[Longest Common Substring](https://www.lintcode.com/problem/longest-common-substring/description)|[Python3](Python3/DP/longestCommonSubstring.py)|Two Sequences||
+|10|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[Python3](Python3/DP/minDistance.py)|Two Sequences||
 
 |*|[背包问题] | [Python3](Python3/DP/knapsack.py)|**0-1背包**题目描述在代码内|:octocat:|
 |*|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [Python3](Python3/DP/canPartition.py)|**0-1背包**|:octocat:|
