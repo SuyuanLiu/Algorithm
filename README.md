@@ -236,3 +236,5 @@ If labels is :octocat: , it means it's a classical question.
 |17|[k Sum](https://www.lintcode.com/problem/k-sum/description)|[Python3](Python3/DP/kSum.py)|0-1背包||
 
 [Back to Top](#index)
+
+TODO:lintcode 91(minAdjustmentCost)
