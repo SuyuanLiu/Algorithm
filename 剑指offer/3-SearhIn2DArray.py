@@ -1,7 +1,6 @@
 '''
 解题思路：
-- 二分思想
-- 选取右上角（或者左下角）的数字 tmp，与它比较：
+二分思想。选取右上角（或者左下角）的数字 tmp，与它比较：
     if target == tmp，结束查找；
     if target > tmp，说明 target 在 tmp 的下面的行中；
     if target < tmp，说明 target 在 tmp 前面的列中；
@@ -10,7 +9,7 @@
 - 时间复杂度 O(logmn)
 - 空间复杂度 O(1)
 
-test case：
+Test Cases：
 - 空数组
 - 数组中没有target
 - 数组中有target，target是最小值/最大值/普通值
