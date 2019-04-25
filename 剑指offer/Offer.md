@@ -1,0 +1,13 @@
+# 剑指 offer 题解
+
+所有代码已通过[牛客网](https://www.nowcoder.com/ta/coding-interviews)测试。
+
+算法使用 Python3 实现。🤔在每个代码文件中，分别给出以下内容：
+- 解题思路
+- 时/空间复杂度分析
+- test case 设计
+- 需要与面试官提前沟通的地方
+
+---------------
+**题解**
+- [3-二维数组中的查找](3-SearhIn2DArray.py)
