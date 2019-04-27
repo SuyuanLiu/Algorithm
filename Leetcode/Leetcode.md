@@ -245,5 +245,6 @@ If labels is :octocat: , it means it's a classical question.
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
 |0|[Clone Graph](https://leetcode.com/problems/clone-graph/)|[Python3](Python3/Graph/cloneGraph.py)|||
+|1|[Topological Sorting](https://www.lintcode.com/problem/topological-sorting/description)|[Python3](Python3/Graph/topologicalSort.py)|||
 
 [Back to Top](#index)
