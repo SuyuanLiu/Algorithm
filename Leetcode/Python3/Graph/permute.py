@@ -1,7 +1,7 @@
 '''
 Solution:
 - 使用DFS，模拟搜索树
-- 
+- 时间复杂度 O(n!),这种的测试集数据不会很大，一般n<=20
 '''
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:

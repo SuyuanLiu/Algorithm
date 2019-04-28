@@ -247,5 +247,6 @@ If labels is :octocat: , it means it's a classical question.
 |0|[Clone Graph](https://leetcode.com/problems/clone-graph/)|[Python3](Python3/Graph/cloneGraph.py)|Graph||
 |1|[Topological Sorting](https://www.lintcode.com/problem/topological-sorting/description)|[Python3](Python3/Graph/topologicalSort.py)|Graph||
 |2|[Permutations](https://leetcode.com/problems/permutations/)|[Python3](Python3/Graph/permute.py)|Search||
+|3|[Subsets](https://leetcode.com/problems/subsets/)|[Python3](Python3/Graph/subsets.py)|Search||
 
 [Back to Top](#index)
