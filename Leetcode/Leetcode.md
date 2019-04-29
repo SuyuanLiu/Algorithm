@@ -249,5 +249,6 @@ If labels is :octocat: , it means it's a classical question.
 |2|[Permutations](https://leetcode.com/problems/permutations/)|[Python3](Python3/Graph/permute.py)|Search,DFS||
 |3|[Subsets](https://leetcode.com/problems/subsets/)|[Python3](Python3/Graph/subsets.py)|Search,DFS||
 |4|[N-Queens](https://leetcode.com/problems/n-queens/)|[Python3](Python3/Graph/solveNQueens.py)|Search,DFS||
+|5|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Python3](Python3/Graph/subsetsWithDup.py)|Search,DFS||
 
 [Back to Top](#index)
