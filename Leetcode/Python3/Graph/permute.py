@@ -2,7 +2,31 @@
 Solution:
 - 使用DFS，模拟搜索树
 - 时间复杂度 O(n!),这种的测试集数据不会很大，一般n<=20
+
+Solution 2:
+通用型DFS
 '''
+# Solution 2
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        res = []
+        self.dfs(nums, res, [])
+        return res
+        
+    def dfs(self, nums, res, path):
+        if len(path) == len(nums):
+            res.append([c for c in path])
+            return 
+        
+        for n in nums:
+            if n not in path:
+                path.append(n)
+                self.dfs(nums, res, path)
+                path.pop()
+        
+            
+
+# Solution 1
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         if not nums:
