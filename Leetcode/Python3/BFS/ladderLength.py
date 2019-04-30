@@ -17,6 +17,8 @@ Solution 2:
 '''
 # Solution 2
 import string
+
+
 class Solution:  
     def ladderLength(self, beginWord, endWord, wordList):
         """
@@ -28,7 +30,7 @@ class Solution:
         if not wordList:
             return 0
         
-        wordList = set(wordList)
+        wordList = set(wordList)       
         stack = [(beginWord, 1)]
         visited = set()
         while stack:
@@ -77,6 +79,3 @@ class Solution:
                         wordList[j] = ''
             cnt += 1
         return 0
-        
-        
-        

@@ -6,7 +6,29 @@ Solution 1: DFS(BackTracking)
 Solution 2: 
 - 考虑的是把nums中的数字一个一个的插入到res中的path里面去；
 - 比如nums=[1,2,3],一开始是把1插入到[]，变成[1]；然后是把2插入到[1],有[2,1], [1,2]两种；最后是把3插入到[2,1], [1,2]中，...
+
+Solution 3:(2019.4.30)
+- 使用DFS，模拟搜索树
+- 时间复杂度 O(n!),这种的测试集数据不会很大，一般n<=20
 '''
+# Solution 3
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        res = []
+        self.dfs(nums, res, [])
+        return res
+        
+    def dfs(self, nums, res, path):
+        if len(path) == len(nums):
+            res.append([c for c in path])
+            return 
+        
+        for n in nums:
+            if n not in path:
+                path.append(n)
+                self.dfs(nums, res, path)
+                path.pop()
+
 
 # Solution 2
 class Solution:
@@ -46,4 +68,3 @@ class Solution:
             return []
         
         return self.dfs(nums, [], [])
-        

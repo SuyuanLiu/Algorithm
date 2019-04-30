@@ -17,10 +17,8 @@ If labels is :octocat: , it means it's a classical question.
 - [Array](#Array)
 - [String](#String)
 - [Linked List](#Linked-List)
-- [BFS](#BFS)
-- [DFS](#DFS)
+- [BFS & DFS & Graph](#BFS-&-DFS-&-Graph)
 - [Dynamic Programming](#Dynamic-Programming)
-- [Graph and Searcn](#Graph-and-Search)
 
 
 ## Binary Search
@@ -187,29 +185,30 @@ If labels is :octocat: , it means it's a classical question.
 [Back to Top](#index)
 
 
-## BFS
+
+## DFS & BFS & Graph
 |Idx|Questions|Solution|Info|Lable|
 |---|--------|:-------:|:--------:|:-----:|
-|0|网格中走到某一位置的最短路径| [Python3](Python3/BFS/minPath.py)|题目要求在代码内|:octocat:|
-|1|[Perfect Squares](https://leetcode.com/problems/perfect-squares/submissions/)| [Python3](Python3/BFS/numSquares.py)||:octocat:|
-|2|[Word Ladder](https://leetcode.com/problems/word-ladder/)| [Python3](Python3/BFS/ladderLength.py)||:octocat:|
-
-[Back to Top](#index)
-
-
-## DFS
-|Idx|Questions|Solution|Info|Lable|
-|---|--------|:-------:|:--------:|:-----:|
-|0|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)| [Python3](Python3/DFS/maxAreaOfIsland.py)||:octocat:|
-|1|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python3](Python3/DFS/numIslands.py)||:octocat:|
-|2|[Friend Circles](https://leetcode.com/problems/friend-circles/)| [Python3](Python3/DFS/findCircleNum.py)||:octocat:|
-|3|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)| [Python3](Python3/DFS/solve.py)|BackTracking|:octocat:|
-|4|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python3](Python3/DFS/letterCombinations.py)|BackTracking|:octocat:|
-|5|[Permutations](https://leetcode.com/problems/permutations/)| [Python3](Python3/DFS/permute.py)|BackTracking|:octocat:|
-|6|[Permutations II](https://leetcode.com/problems/permutations-ii/)| [Python3](Python3/DFS/permuteII.py)|没想明白！BackTracking||
-|7|[Combinations](https://leetcode.com/problems/combinations/)| [Python3](Python3/DFS/combine.py)|BackTracking,**TODO:**Solution 2||
-|8|[Subsets](https://leetcode.com/problems/subsets/)| [Python3](Python3/DFS/subsets.py)|BackTracking||
+|0|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)| [Python3](Python3/DFS/maxAreaOfIsland.py)|DFS|:octocat:|
+|1|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Python3](Python3/DFS/numIslands.py)|DFS|:octocat:|
+|2|[Friend Circles](https://leetcode.com/problems/friend-circles/)| [Python3](Python3/DFS/findCircleNum.py)|DFS|:octocat:|
+|3|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)| [Python3](Python3/DFS/solve.py)|DFS,BackTracking|:octocat:|
+|4|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)| [Python3](Python3/DFS/letterCombinations.py)|DFS,BackTracking|:octocat:|
+|5|[Permutations](https://leetcode.com/problems/permutations/)| [Python3](Python3/DFS/permute.py)|Search, DFS,BackTracking|:octocat:|
+|6|[Permutations II](https://leetcode.com/problems/permutations-ii/)| [Python3](Python3/DFS/permuteII.py)|DFS,BackTracking||
+|7|[Combinations](https://leetcode.com/problems/combinations/)| [Python3](Python3/DFS/combine.py)|DFS,BackTracking,**TODO:**Solution 2||
+|8|[Subsets](https://leetcode.com/problems/subsets/)| [Python3](Python3/DFS/subsets.py)|DFS,BackTracking||
 |TODO|417,93,79,257,39
+|9|[N-Queens](https://leetcode.com/problems/n-queens/)|[Python3](Python3/Graph/solveNQueens.py)|Search,DFS||
+|10|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Python3](Python3/Graph/subsetsWithDup.py)|Search,DFS||
+|11|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Python3](Python3/Graph/partition.py)|Search,DFS||
+|12|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python3](Python3/Graph/combinationSum.py)|Search,DFS||
+|13|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Python3](Python3/Graph/combinationSum2.py)|Search,DFS||
+|14|网格中走到某一位置的最短路径| [Python3](Python3/BFS/minPath.py)|题目要求在代码内,BFS|:octocat:|
+|15|[Perfect Squares](https://leetcode.com/problems/perfect-squares/submissions/)| [Python3](Python3/BFS/numSquares.py)|BFS|:octocat:|
+|16|[Word Ladder](https://leetcode.com/problems/word-ladder/)| [Python3](Python3/BFS/ladderLength.py)|BFS|:octocat:|
+|17|[Clone Graph](https://leetcode.com/problems/clone-graph/)|[Python3](Python3/Graph/cloneGraph.py)|Graph, BFS||
+|18|[Topological Sorting](https://www.lintcode.com/problem/topological-sorting/description)|[Python3](Python3/Graph/topologicalSort.py)|Graph, BFS||
 
 [Back to Top](#index)
 
@@ -240,18 +239,4 @@ If labels is :octocat: , it means it's a classical question.
 [Back to Top](#index)
 
 
-## Graph and Search
 
-|Idx|Questions|Solution|Info|Lable|
-|---|--------|:-------:|:--------:|:-----:|
-|0|[Clone Graph](https://leetcode.com/problems/clone-graph/)|[Python3](Python3/Graph/cloneGraph.py)|Graph||
-|1|[Topological Sorting](https://www.lintcode.com/problem/topological-sorting/description)|[Python3](Python3/Graph/topologicalSort.py)|Graph||
-|2|[Permutations](https://leetcode.com/problems/permutations/)|[Python3](Python3/Graph/permute.py)|Search,DFS||
-|3|[Subsets](https://leetcode.com/problems/subsets/)|[Python3](Python3/Graph/subsets.py)|Search,DFS||
-|4|[N-Queens](https://leetcode.com/problems/n-queens/)|[Python3](Python3/Graph/solveNQueens.py)|Search,DFS||
-|5|[Subsets II](https://leetcode.com/problems/subsets-ii/)|[Python3](Python3/Graph/subsetsWithDup.py)|Search,DFS||
-|6|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Python3](Python3/Graph/partition.py)|Search,DFS||
-|7|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python3](Python3/Graph/combinationSum.py)|Search,DFS||
-|8|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Python3](Python3/Graph/combinationSum2.py)|Search,DFS||
-
-[Back to Top](#index)
