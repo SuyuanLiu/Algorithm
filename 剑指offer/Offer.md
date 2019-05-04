@@ -13,3 +13,4 @@
 - [3-二维数组中的查找](3-SearhIn2DArray.py)
 - [4-替换空格](4-ReplaceSpace.py)
 - [5-从尾到头打印链表](5-printLinkedList.py)
+- [6-重建二叉树](6-reConstructBinaryTree.py)
