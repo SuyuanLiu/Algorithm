@@ -1,21 +1,16 @@
 # -*- coding:utf-8 -*-
 class Solution:
-    def minNumberInRotateArray(self, rotateArray):
+    def Fibonacci(self, n):
         # write code here
-        if not rotateArray:
-            return 0
-        low, high = 0, len(rotateArray) - 1
-        if rotateArray[low] < rotateArray[high]:
-            return rotateArray[low]
-        while high - low > 1:
-            mid = low + (high - low) // 2
-            if rotateArray[low] == rotateArray[high]:
-                return min(rotateArray[low:high+1])
-            if rotateArray[mid] > rotateArray[low]:
-                low = mid
-            elif rotateArray[mid] < rotateArray[high]:
-                high = mid
-        return rotateArray[high]
+        if n < 2:
+            return n 
+        n1, n2 = 1, 1
+        res = 1
+        for i in range(2, n)
+            res = n1 + n2
+            n1 = n2 
+            n2 = res 
+        return res
 
 s = Solution()
-print(s.minNumberInRotateArray([3,4,5,1,2]))
+print(s.Fibonacci(3))
