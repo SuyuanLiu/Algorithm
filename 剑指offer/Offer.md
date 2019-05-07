@@ -20,3 +20,4 @@
 - [8-旋转数组的最小数字](8-minNumberInRotateArray.py) 🌟
 - [9-斐波那契数列](9-Fibonacci.py) + [跳台阶](jumpFloor.py) + [变态跳台阶](jumpFloorII.py) + [矩形覆盖](rectCover.py)
 - [10-二进制中1的个数](10-NumberOf1.py)🌟
+- [11-数值的整数次方](11-Power.py)🌟
