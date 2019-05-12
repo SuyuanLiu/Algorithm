@@ -1,29 +1,15 @@
 class Solution():
-    def __init__(self):
-        self.nums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-
-    def printNum(self, num):
-        i = 0
-        while i < len(num) and num[i] == '0':
-            i += 1
-        if i == len(num):
+    def deleteNode(self, head, node):
+        if not head:
             return 
-        print(num[i:])
 
-    def helper(self, num, idx):
-        if idx == len(num):
-            self.printNum(num)
+        if not node.next:
+            node = None
             return 
-        for i in range(10):
-            num = num[:idx] + self.nums[i] + num[idx+1:]
-            self.helper(num, idx+1)
-    
+        
+        if node == head and not node.next:
+            head = None
 
-    def printNmax(self, n):
-        if n <= 0:
-            return 
-        num = '0' * n
-        self.helper(num, 0)
-    
-s = Solution()
-s.printNmax(3)
+        tmp = node.next
+        node.val = tmp.val
+        node.next = tmp.next
