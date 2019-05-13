@@ -1,38 +1,24 @@
-
-class listNode():
-    def __init__(self, x):
-        self.val = x
-        self.next = None
-
-class Solution():
-    def deleteNode(self, head, node):
-        if not head:
-            return 
-
-        if not node.next:
-            pre, cur = None, head
-            while cur != node:
-                pre = cur
-                cur = cur.next
-            pre.next = None
-            return
+# -*- coding:utf-8 -*-
+class Solution:
+    def reOrderArray(self, array):
+        # write code here
+        if not array:
+            return array
         
-        if node == head and not node.next:
-            head = None
-
-        tmp = node.next
-        node.val = tmp.val
-        node.next = tmp.next
-
-head = listNode(1)
-head.next = listNode(2)
-head.next.next = listNode(3)
-print(head.val)
-print(head.next.val)
-print(head.next.next.val)
+        i = 0
+        while i < len(array):
+            while i < len(array) and array[i] & 0x1 == 1:
+                i += 1
+            j = i 
+            while j < len(array) and array[j] & 0x1 == 0:
+                j += 1
+            if j >= len(array):
+                break
+            for k in range(j, i, -1):
+                array[k], array[k-1] = array[k-1], array[k]
+            i = j
+        return array
 
 s = Solution()
-s.deleteNode(head, head.next.next)
-print(head.val)
-print(head.next.val)
-print(head.next.next.val)
+nums = [3,5,2,4,7,6,1,9,8]
+print(s.reOrderArray(nums))
