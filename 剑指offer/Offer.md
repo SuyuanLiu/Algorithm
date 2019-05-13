@@ -16,9 +16,9 @@
 - [4-替换空格](4-ReplaceSpace.py)
 - [5-从尾到头打印链表](5-printLinkedList.py)
 - [6-重建二叉树](6-reConstructBinaryTree.py)
-- [7-用两个栈实现队列](7-realizeQueueByStacks.py) + [用两个队列实现栈](realizeStackByQueues.py)
+- [7-用两个栈实现队列](7-realizeQueueByStacks.py) + [用两个队列实现栈](7-realizeStackByQueues.py)
 - [8-旋转数组的最小数字](8-minNumberInRotateArray.py) 🌟
-- [9-斐波那契数列](9-Fibonacci.py) + [跳台阶](jumpFloor.py) + [变态跳台阶](jumpFloorII.py) + [矩形覆盖](rectCover.py)
+- [9-斐波那契数列](9-Fibonacci.py) + [跳台阶](9-jumpFloor.py) + [变态跳台阶](9-jumpFloorII.py) + [矩形覆盖](9-rectCover.py)
 - [10-二进制中1的个数](10-NumberOf1.py)🌟
 - [11-数值的整数次方](11-Power.py)🌟
 - [12-打印1到最大的n位数](12-printNmax.py)🌟
@@ -27,8 +27,8 @@
 - [15-链表中倒数第k个结点](15-FindKthToTail.py)🌟
 - [16-反转链表](16-ReverseList.py)
 - [17-合并两个排序的链表](17-Merge.py)
+- [18-树的子结构](18-HasSubtree.py)
 ------
-
 
 '''
 解题思路：
