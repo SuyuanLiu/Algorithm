@@ -31,6 +31,7 @@
 - [19-二叉树的镜像](19-Mirror.py)
 - [20-顺时针打印矩阵](20-printMatrix.py)🌟
 - [21-包含min函数的栈](21-stackWithMin.py)🌟
+- [22-栈的压入、弹出序列](22-isPopOrder.py)🌟
 ------
 
 '''
