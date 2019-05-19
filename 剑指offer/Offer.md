@@ -35,6 +35,7 @@
 - [23-从上到下打印二叉树](23-PrintFromTopToBottom.py)
 - [24-二叉搜索树的后序遍历](24-VerifySquenceOfBST.py)
 - [25-二叉树中和为某一值的路径](25-FindPath.py)🌟
+- [26-复杂链表的复制](26-Clone.py)
 ------
 
 '''
