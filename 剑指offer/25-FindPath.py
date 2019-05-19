@@ -1,3 +1,13 @@
+'''
+解题思路：
+- dfs
+- 用path保存走过的路径，回溯时要弹出path最后一个结点。
+
+Test Cases：
+- 空树
+- 没有符合条件的路径
+- 有一条/多条符合条件路径
+'''
 # -*- coding:utf-8 -*-
 # class TreeNode:
 #     def __init__(self, x):
@@ -5,10 +15,9 @@
 #         self.left = None
 #         self.right = None
 class Solution:
-    # 返回二维列表，内部每个列表表示找到的路径
     def isLeaf(self, root):
         if not root.left and not root.right:
-            return True
+            return Truee
         return False
     
     def dfs(self, root, expect, path, res):
@@ -29,11 +38,3 @@ class Solution:
         if not root:
             return []
         return self.dfs(root, expectNumber, [], res)
-
-s = Solution()
-root = TreeNode(10)
-root.left = TreeNode(5)
-root.right = TreeNode(12)
-root.left.left = TreeNode(4)
-root.left.right = TreeNode(7)
-print(s.FindPath(root, 22))
