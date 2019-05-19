@@ -33,6 +33,7 @@
 - [21-包含min函数的栈](21-stackWithMin.py)🌟
 - [22-栈的压入、弹出序列](22-isPopOrder.py)🌟
 - [23-从上到下打印二叉树](23-PrintFromTopToBottom.py)
+- [24-二叉搜索树的后序遍历](24-VerifySquenceOfBST.py)
 ------
 
 '''
