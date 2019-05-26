@@ -1,39 +1,58 @@
-# -*- coding:utf-8 -*-
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
-class Solution:
-    # 返回二维列表，内部每个列表表示找到的路径
-    def isLeaf(self, root):
-        if not root.left and not root.right:
-            return True
-        return False
-    
-    def dfs(self, root, expect, path, res):
-        if root.val == expect and self.isLeaf(root):
-            path.append(root.val)
-            res.append([n for n in path])
-            return res
-            
-        if root.left:
-            res = self.dfs(root.left, expect-root.val, path+[root.val], res)
-        if root.right:
-            res = self.dfs(root.right, expect-root.val, path+[root.val], res)
-        return res
-    
-    def FindPath(self, root, expectNumber):
-        # write code here
-        res = []
-        if not root:
-            return []
-        return self.dfs(root, expectNumber, [], res)
+def goodInRow(R, C, K, matrix):
+    res = []
+    for i in range(R):
+        tmp = []
+        left = 0
+        min_, max_ = matrix[i][0], matrix[i][0]
+        for j in range(1, C):
+            min_, max_ = min(min_, matrix[i][j]), max(max_, matrix[i][j])
+            if max_ - min_ > K:
+                if j-1 != left:
+                    tmp.append([left, j-1])
+                left = j 
+                min_, max_ = matrix[i][j], matrix[i][j]
+            elif j == C - 1 and j != left:
+                tmp.append([left, j])
+        res.append(tmp)
+    return res 
 
-s = Solution()
-root = TreeNode(10)
-root.left = TreeNode(5)
-root.right = TreeNode(12)
-root.left.left = TreeNode(4)
-root.left.right = TreeNode(7)
-print(s.FindPath(root, 22))
+
+def findMaxInConsecutiveArea(s, e, margin):
+    res = 0
+    for i in range(s, e+1):
+        tmp = margin[i]
+        for j in range(len(tmp)):
+            l, r = tmp[j]
+            res = max(res, r-l+1)
+            for k in range(i, e+1):
+                
+
+
+
+def findGoodSquare(R, C, K, matirx):
+    margin = goodInRow(R, C, K, matrix)
+    res = R 
+    for i in range(R):
+
+            
+            
+def main():
+    t = int(input())
+    for i in range(1, t+1):
+        [R, C, K] = [int(s) for s in input().split(' ')]
+        matrix = []
+        for i in range(R):
+            matrix.append([int(s) for s in input().split(' ')])
+        res = findGoodSquare(R, C, K, matirx)
+        print('Case #{}: {} {}'.format(i, res))
+
+if __name__ =='__main__':
+    main()
+
+
+
+# m = [[15,10,20,15],[10,4,5,20],[20,5,4,10],[20,10,20,10]]
+# res = goodInRow(4,4,8,m)
+# for i in range(len(res)):
+#     print(len(res[i]))
+#     print(res[i])
