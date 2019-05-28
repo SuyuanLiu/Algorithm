@@ -37,7 +37,7 @@
 - [25-二叉树中和为某一值的路径](25-FindPath.py)🌟
 - [26-复杂链表的复制](26-Clone.py)
 - [27-二叉搜索树与双向链表](27-Convert.py)🌟
-- []
+- [28-字符串的排列](28-Permutation.py)🌟
 - [29-数组中出现次数超过一半的数字](29-MoreThanHalfNum_Solution.py)🌟
 ------
 
