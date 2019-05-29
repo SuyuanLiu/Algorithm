@@ -40,6 +40,7 @@
 - [28-字符串的排列](28-Permutation.py)🌟
 - [29-数组中出现次数超过一半的数字](29-MoreThanHalfNum_Solution.py)🌟
 - [30-最小的k个数](30-GetLeastNumbers_Solution.py)
+- [31-连续子数组的最大和](31-FindGreatestSumOfSubArray.py)
 ------
 
 '''
