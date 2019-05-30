@@ -41,6 +41,7 @@
 - [29-数组中出现次数超过一半的数字](29-MoreThanHalfNum_Solution.py)🌟
 - [30-最小的k个数](30-GetLeastNumbers_Solution.py)
 - [31-连续子数组的最大和](31-FindGreatestSumOfSubArray.py)
+- [32-从1到整数n中1出现的次数](32-NumberOf1Between1AndN_Solution.py)🌟Solution 2 不懂
 ------
 
 '''
