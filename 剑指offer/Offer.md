@@ -42,6 +42,7 @@
 - [30-最小的k个数](30-GetLeastNumbers_Solution.py)
 - [31-连续子数组的最大和](31-FindGreatestSumOfSubArray.py)
 - [32-从1到整数n中1出现的次数](32-NumberOf1Between1AndN_Solution.py)🌟Solution 2 不懂
+- [33-把数组排成最小的数](33-PrintMinNumber.py)🌟
 ------
 
 '''
