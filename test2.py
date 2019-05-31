@@ -1,23 +1,22 @@
 # -*- coding:utf-8 -*-
-import heapq
-
-
 class Solution:
-    def GetLeastNumbers_Solution(self, nums, k):
-        # write code here
-        if len(nums) < k or k == 0:
-            return []
-        if len(nums) == k:
-            nums.sort()
-            return nums
+    def isUngly(self, num):
+        while num % 2 == 0:
+            num //= 2
+        while num % 3 == 0:
+            num //= 3
+        while num % 5 == 0:
+            num //= 5
+        return num == 1
         
-        nums = [-n for n in nums]
-        res = nums[:k]
-        heapq.heapify(res)
-        for i in range(k, len(nums)):
-            if nums[i] > res[0]:
-                heapq.heappop(res)
-                heapq.heappush(res, nums[i])
-        res = [-n for n in res]
-        res.sort()
-        return res
+    def GetUglyNumber_Solution(self, index):
+        # write code here
+        cnt, num = 1, 1
+        while cnt < index:
+            num += 1
+            if self.isUngly(num):
+                cnt += 1
+        return num
+
+s = Solution()
+print(s.GetUglyNumber_Solution(3))
