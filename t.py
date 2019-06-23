@@ -1,40 +1,45 @@
 # -*- coding:utf-8 -*-
 class Solution:
-    def merge(self, nums, start, end, mid):
-        A, cnt = [], 0
-        i, j = mid, end
-        # import pdb; pdb.set_trace()
-        while i >= start and j > mid:
-            if nums[i] > nums[j]:
-                A.append(nums[i])
-                i -= 1
-                cnt += j - mid
+    def getFirstK(self, nums, k):
+        start, end = 0, len(nums) - 1
+        while start <= end:
+            mid = start + (end - start) // 2
+            if nums[mid] == k:
+                if mid > 0 and nums[mid-1] == k:
+                    end = mid - 1
+                else:
+                    return mid
+            elif nums[mid] > k:
+                end = mid - 1
             else:
-                A.append(nums[j])
-                j -= 1
-        if i >= start:
-            A = A + nums[start:i+1][::-1]
-        if j > mid:
-            A = A + nums[mid+1:j+1][::-1]
-        nums = nums[:start] + A[::-1] + nums[end+1:]
-        return nums, cnt
+                start = mid + 1
+        return -1
         
-    def mergeSort(self, nums, start, end):
-        if start >= end:
-            return nums, 0
-        mid = start + (end - start) // 2
-        nums, lcnt = self.mergeSort(nums, start, mid)
-        nums, rcnt = self.mergeSort(nums, mid+1, end)
-        nums, cnt = self.merge(nums, start, end, mid)
-        return nums, lcnt + rcnt + cnt
+    def getLastK(self, nums, k):
+        start, end = 0, len(nums) - 1
+        while start <= end:
+            mid = start + (end - start) // 2
+            if nums[mid] == k:
+                if mid < len(nums) - 1 and nums[mid+1] == k:
+                    start = mid + 1
+                else:
+                    return mid
+            elif nums[mid] > k:
+                end = mid - 1
+            else:
+                start = mid + 1
+        return -1        
     
-    def InversePairs(self, nums):
+    def GetNumberOfK(self, nums, k):
         # write code here
-        if len(nums) < 2:
+        if not nums:
             return 0
-        nums, cnt = self.mergeSort(nums, 0, len(nums)-1)
-        return cnt
+        l = self.getFirstK(nums, k)
+        r = self.getLastK(nums, k)
+        if l == -1 or r == -1:
+            return 0
+        return r - l + 1
     
 s = Solution()
-nums = [1,2,3,4,5,6,7,0]
-print(s.InversePairs(nums))
+nums = [1,2,3,3,3,3,4,5]
+print(s.GetNumberOfK(nums, 3))
