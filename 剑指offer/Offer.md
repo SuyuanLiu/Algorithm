@@ -49,6 +49,7 @@
 - [37-两个链表的第一个公共结点](37-FindFirstCommonNode.py)
 - [38-数字在排序数组中出现的次数](38-GetNumberOfK.py)🌟
 - [39-二叉树的深度](39-TreeDepth.py)
+- [平衡二叉树](IsBalanced_Solution.py)🌟
 ------
 
 '''
