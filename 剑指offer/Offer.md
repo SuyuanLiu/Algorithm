@@ -51,6 +51,7 @@
 - [39-二叉树的深度](39-TreeDepth.py)
 - [平衡二叉树](IsBalanced_Solution.py)🌟
 - [40-数组中只出现一次的数字](40-FindNumsAppearOnce.py)🌟
+- [41-和为s的两个数字](41-FindNumbersWithSum.py)
 ------
 
 '''
