@@ -52,6 +52,7 @@
 - [平衡二叉树](IsBalanced_Solution.py)🌟
 - [40-数组中只出现一次的数字](40-FindNumsAppearOnce.py)🌟
 - [41-和为s的两个数字](41-FindNumbersWithSum.py)
+- [和为s的连续正数序列](FindContinuousSequence.py)🌟
 ------
 
 '''
