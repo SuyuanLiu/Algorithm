@@ -50,6 +50,7 @@
 - [38-数字在排序数组中出现的次数](38-GetNumberOfK.py)🌟
 - [39-二叉树的深度](39-TreeDepth.py)
 - [平衡二叉树](IsBalanced_Solution.py)🌟
+- [40-数组中只出现一次的数字](40-FindNumsAppearOnce.py)🌟
 ------
 
 '''
