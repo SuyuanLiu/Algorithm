@@ -12,7 +12,7 @@ Solution 1
 ⚠️很多细节遗漏
 
 Solution 2:
-简洁版，判断l1，l2，carry有一个不空即可继续
+简洁版，判断l1，l2，carry有一个不空即可继续a
 '''
 # Solution 2
 # Definition for singly-linked list.
