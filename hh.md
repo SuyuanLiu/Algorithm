@@ -1,16 +1,6 @@
+香港
+- 第一次去的人：进入时第二关时要人工检验，回来时也是。
+- 尖沙咀站下车，到天星码头，坐船到中环（3.5港币）3mins左右，太近了，在那边做摩天轮🎡（湾仔应该比较远）
+- 中午回来，购物；晚上从天星码头走到了维多利亚港，走了星光大道
 
-- discussion lacked the model interpretability，可解释性
-- 非跨人实验，怎样避免 overfitting
-- graphic attention model trained by channel-wise? For each channel, one graphic attention network and one LSTM were trained? 
-- 细节不清楚，无法复现
-- abstract可以改改，can be improved to be easier to understand what was done.
-- introduction介绍了太多概念，confusing
-- related work要讨论一下那些工作的优缺点
-- 最后总结为什么你的模型好，有什么缺陷
-- two branch怎么体现作用的
-- 语法错误
-
------------------
-**Fixed**
-- 为什么Hjorth and HOC在跨人实验效果好，但非跨人不好
-- unclear how to construct the graph using EEG features as the input of SGA-LSTM
+可以去旺角，那边吃的比较多好像。
