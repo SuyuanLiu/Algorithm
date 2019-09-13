@@ -12,8 +12,17 @@
 - [139. Word Break](https://leetcode.com/problems/word-break/) --> [题解](wordBreak.py)
 - [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) --> [题解](maximumProductSubarray.py)
 
-第 43 天：动态规划
+---
 
-- []() --> [题解]()
-- []() --> [题解]()
-- []() --> [题解]()
+[这边](https://github.com/youhusky/Leetcode_Company#microsoft)是各个公司常考的面试题，我先照着公司刷题。每天至少两道。
+
+**Microsoft**
+
+- 2019.9.13：[138. Copy List with Random Pointer]() --> [题解]()
+- 2019.9.13：[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) --> [题解]()
+
+* 2019.9.13：[]() --> [题解]()
+* 2019.9.13：[]() --> [题解]()
+* 2019.9.13：[]() --> [题解]()
+* 2019.9.13：[]() --> [题解]()
+* 2019.9.13：[]() --> [题解]()
