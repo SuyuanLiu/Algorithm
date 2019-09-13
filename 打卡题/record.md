@@ -14,12 +14,12 @@
 
 ---
 
-[这边](https://github.com/youhusky/Leetcode_Company#microsoft)是各个公司常考的面试题，我先照着公司刷题。每天至少两道。
+[这边](https://github.com/youhusky/Leetcode_Company#microsoft)是各个公司常考的面试题，我先照着公司刷题。每天至少两道。🌟 表示我不熟练。
 
 **Microsoft**
 
-- 2019.9.13：[138. Copy List with Random Pointer]() --> [题解]()
-- 2019.9.13：[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) --> [题解]()
+- 2019.9.13：[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/submissions/) --> [题解](copyRandomList.py)🌟
+- 2019.9.13：[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) --> [题解](reverseList.py)
 
 * 2019.9.13：[]() --> [题解]()
 * 2019.9.13：[]() --> [题解]()
