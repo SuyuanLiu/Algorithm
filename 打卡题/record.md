@@ -20,9 +20,14 @@
 
 - 2019.9.13：[138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/submissions/) --> [题解](copyRandomList.py)🌟
 - 2019.9.13：[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) --> [题解](reverseList.py)
+- 2019.9.14：[419 Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/) --> [题解](countBattleships.py)
 
-* 2019.9.13：[]() --> [题解]()
-* 2019.9.13：[]() --> [题解]()
-* 2019.9.13：[]() --> [题解]()
-* 2019.9.13：[]() --> [题解]()
-* 2019.9.13：[]() --> [题解]()
+* 2019.9.14：[]() --> [题解]()
+
+- 2019.9.1：[]() --> [题解]()
+- 2019.9.1：[]() --> [题解]()
+- 2019.9.：[]() --> [题解]()
+
+vip 才能做的题：
+
+- 348 Design Tic-Tac-Toe

@@ -1,4 +1,2 @@
-a = 1
-b = a 
-b += 1
-print(a, b)
+board = [["X",".","X"],["X",".","X"]]
+print(len(board), len(board[0]))
