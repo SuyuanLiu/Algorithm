@@ -36,3 +36,9 @@ TODO
 vip 才能做的题：
 
 - 348 Design Tic-Tac-Toe
+
+---
+
+**Google Next Stage 3**
+
+- 2019.9.17：[1145. Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/) --> [题解](btreeGameWinningMove.py)
