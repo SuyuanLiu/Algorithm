@@ -42,3 +42,4 @@ vip 才能做的题：
 **Google Next Stage 3**
 
 - 2019.9.17：[1145. Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/) --> [题解](btreeGameWinningMove.py)
+- 2019.9.18：[1144. Decrease Elements To Make Array Zigzag](https://leetcode.com/problems/decrease-elements-to-make-array-zigzag/) --> [题解](moveToMakeZigZag.py)
