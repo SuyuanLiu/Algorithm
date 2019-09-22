@@ -1,0 +1,25 @@
+def dfs(grid, flood, H, visited, posx, posy):
+  position = [(0, 1), (0, -1), (1, 0), (-1, 0)]
+  for i in range(4):
+    x, y = posx + position[0], posy + position[1]
+    if 0 <= x < N and 0 <= y < N and grid[x][y] < H and (x,y) not in visited:
+      visited.append((x,y))
+      flood[x][y] = True
+      visited, flood = dfs(grid, flood, H, visited, x, y)
+  return visited, flood
+
+def floodWorld(grid, N, H):
+  visited = []
+  flood = [[False for j in range(N)] for i in range(N)]
+
+  for i in range(N):
+    if grid[i][0] >= H:
+      break
+    elif (i,0) not in visited:
+      visited, flood = dfs(grid, flood, H, visited, i, j)
+  return flood
+
+-------------------------
+def findMaxH(grid, N, px, py, cx, cy):
+  path = []
+  
