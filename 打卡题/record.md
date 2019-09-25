@@ -46,3 +46,7 @@ vip 才能做的题：
 - 2019.9.20：[1123. Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) --> [题解](lcaDeepestLeaves.py)🌟🌟
 - 2019.9.20：[1130. Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) --> [题解](mctFromLeafValues.py)🌟🌟🌟
 - 2019.9.20：[1139. Largest 1-Bordered Square](https://leetcode.com/problems/largest-1-bordered-square/) --> [题解](largest1BorderedSquare.py)🌟
+
+**Google Mock Interview**
+
+- 2019.9.25: [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)--> [code](shipWithinDays.py)
