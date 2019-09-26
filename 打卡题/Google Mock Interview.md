@@ -94,4 +94,4 @@ Solution: 二分，没太懂
 ### Practice
 
 - [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)--> [code](shipWithinDays.py)
-- https://leetcode.com/problems/split-array-largest-sum/
+- [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) --> [code](splitArray.py)

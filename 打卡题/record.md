@@ -49,4 +49,5 @@ vip 才能做的题：
 
 **Google Mock Interview**
 
-- 2019.9.25: [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)--> [code](shipWithinDays.py)
+- 2019.9.25: [1011. Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) --> [code](shipWithinDays.py)
+- 2019.9.26: [410. Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) --> [code](splitArray.py)
