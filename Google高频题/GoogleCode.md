@@ -5,6 +5,7 @@
 - [Balanced String](https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=556706&extra=page%3D1%26filter%3Dtypeid%26typeid%3D1019&page=1), [python code](generateBalancedString.py)
 - [904. Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/), [python code](totalFruit.py)
 - [929. Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/), [python code](numUniqueEmails.py)
+- [482. License Key Formatting](https://leetcode.com/problems/license-key-formatting/), [python code](licenseKeyFormatting.py)
 
 
 
