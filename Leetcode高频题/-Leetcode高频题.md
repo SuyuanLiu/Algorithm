@@ -11,3 +11,4 @@
 |[4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[code](findMedianSortedArrays.py)| √ |||🌟|
 |[5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)| [code](longestPalindrome.py)| √ |||🌟|
 |[7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)| [code](reverse.py)|√ |||🌟|
+|[8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)| [code](myAtoi.py)| √ |
