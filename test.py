@@ -1,3 +1,3 @@
-s = 'hhsls'
-for i, c in enumerate(s):
-    print(i, c)
+s = ["dog","racecar","car"]
+s.sort(key=lambda x: len(x))
+print(s)
