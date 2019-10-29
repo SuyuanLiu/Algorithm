@@ -17,3 +17,4 @@
 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                                            | [code](romanToInt.py)               | √       |         |         |       |
 
 |[14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[code](longestCommonPrefix.py) | √ | | | |
+|[15. 3Sum](https://leetcode.com/problems/3sum/)|[code](threeSum.py)| √ | | | 🌟 |
