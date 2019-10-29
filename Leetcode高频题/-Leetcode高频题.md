@@ -15,6 +15,5 @@
 | [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)                                      | [code](isMatch.py)                  | √       |         |         | 🌟    |
 | [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                                          | [code](maxArea.py)                  | √       |         |         | 🌟    |
 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                                            | [code](romanToInt.py)               | √       |         |         |       |
-
-|[14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[code](longestCommonPrefix.py) | √ | | | |
-|[15. 3Sum](https://leetcode.com/problems/3sum/)|[code](threeSum.py)| √ | | | 🌟 |
+| [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                                  | [code](longestCommonPrefix.py)      | √       |         |         |       |
+| [15. 3Sum](https://leetcode.com/problems/3sum/)                                                                                    | [code](threeSum.py)                 | √       |         |         | 🌟    |
