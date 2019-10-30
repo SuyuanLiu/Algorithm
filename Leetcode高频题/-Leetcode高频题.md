@@ -19,3 +19,4 @@
 | [15. 3Sum](https://leetcode.com/problems/3sum/)                                                                                    | [code](threeSum.py)                 | √       |         |         | 🌟    |
 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [code](letterCombinations.py) | √       |         |         |     |
 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [code](removeNthFromEnd.py) | √       |         |         |     |
+| [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [code](isValid.py) |√       |         |         |     |
