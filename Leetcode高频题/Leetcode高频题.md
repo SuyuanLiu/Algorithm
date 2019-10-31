@@ -22,3 +22,6 @@
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [code](isValid.py) | √       |         |         |     |
 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [code](mergeTwoLists.py) | √       |         |         |     |
 | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [code](generateParenthesis.py) | √       |         |         |     |
+| [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [code](mergeKLists.py) | √       |         |         |  TODO: Priority Queue Method   |
+| [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [code](removeDuplicates.py)| √       |         |         |     |
+ 
