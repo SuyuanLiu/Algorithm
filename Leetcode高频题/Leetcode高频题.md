@@ -21,3 +21,4 @@
 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [code](removeNthFromEnd.py) | √       |         |         |     |
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [code](isValid.py) | √       |         |         |     |
 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [code](mergeTwoLists.py) | √       |         |         |     |
+| [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [code](generateParenthesis.py) | √       |         |         |     |
