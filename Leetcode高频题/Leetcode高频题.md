@@ -24,4 +24,5 @@
 | [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [code](generateParenthesis.py) | √       |         |         |     |
 | [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [code](mergeKLists.py) | √       |         |         |  TODO: Priority Queue Method   |
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [code](removeDuplicates.py)| √       |         |         |     |
+| [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [code](strStr.py) | √       |         |         |     |
  
