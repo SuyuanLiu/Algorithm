@@ -1,28 +1,32 @@
 class Solution:
-    def generateParenthesis(self, n):
-        if n < 1:
-            return []
+    def search(self, nums, target):
+        if not nums:
+            return -1
         
-        all_combinations = []
-        
-        def helper(cur_path, left_parenthese_num, n):
-            # import pdb; pdb.set_trace()
-            if left_parenthese_num == 0 and n == 0:
-                all_combinations.append(cur_path)
-            elif not cur_path:
-                cur_path = '('
-                helper(cur_path, 1, n-1)
-            elif n < 1:    
-                helper(cur_path + ')', left_parenthese_num - 1, n)
-            elif left_parenthese_num == 0:
-                cur_path += '('
-                helper(cur_path, 1, n-1)
+        l, r = 0, len(nums) - 1
+        import pdb; pdb.set_trace()
+        while l <= r:
+            mid = l + (r - l) // 2
+            if target == nums[mid]:
+                return mid
+            
+            # left is sorted
+            if nums[mid] > nums[l]:
+                if nums[l] <= target < nums[mid]:
+                    r = mid - 1
+                else:
+                    l = mid + 1
+                
+            # right is sorted    
             else:
-                helper(cur_path + '(', left_parenthese_num + 1, n-1)
-                helper(cur_path + ')', left_parenthese_num - 1, n)
-        
-        helper('', 0, n)
-        return all_combinations
-
+                if nums[mid] < target <= nums[r]:
+                    l = mid + 1
+                else:
+                    r = mid - 1
+            
+        return -1
+                
+                
 s = Solution()
-print(s.generateParenthesis(3))
+nums = [3,1]
+print(s.search(nums, 1))
