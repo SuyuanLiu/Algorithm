@@ -1,32 +1,41 @@
 class Solution:
-    def search(self, nums, target):
-        if not nums:
-            return -1
+    def isValidSudoku(self, board):
+        from collections import defaultdict
+        dic = defaultdict(list)
+        for i in range(len(board)):
+            for j in range(len(board)):
+                if board[i][j] != '.':
+                    dic[board[i][j]].append((i,j))
+
         
-        l, r = 0, len(nums) - 1
-        import pdb; pdb.set_trace()
-        while l <= r:
-            mid = l + (r - l) // 2
-            if target == nums[mid]:
-                return mid
-            
-            # left is sorted
-            if nums[mid] > nums[l]:
-                if nums[l] <= target < nums[mid]:
-                    r = mid - 1
+
+        for num in dic.keys():
+            positions = dic[num]
+            print(positions)
+            import pdb; pdb.set_trace()
+            pos_x, pos_y = [], []
+            for pos in positions:
+                i, j = pos[0], pos[1]
+                print(i,j)
+                print(pos_x, pos_y)
+                import pdb; pdb.set_trace()
+                if i in pos_x or j in pos_y or (i // 3 in pos_x and j // 3 in pos_y):
+                    return False
                 else:
-                    l = mid + 1
-                
-            # right is sorted    
-            else:
-                if nums[mid] < target <= nums[r]:
-                    l = mid + 1
-                else:
-                    r = mid - 1
-            
-        return -1
-                
-                
+                    pos_x.append(i)
+                    pos_y.append(j)
+        return True
+
 s = Solution()
-nums = [3,1]
-print(s.search(nums, 1))
+board = [
+  ["5","3",".",".","7",".",".",".","."],
+  ["6",".",".","1","9","5",".",".","."],
+  [".","9","8",".",".",".",".","6","."],
+  ["8",".",".",".","6",".",".",".","3"],
+  ["4",".",".","8",".","3",".",".","1"],
+  ["7",".",".",".","2",".",".",".","6"],
+  [".","6",".",".",".",".","2","8","."],
+  [".",".",".","4","1","9",".",".","5"],
+  [".",".",".",".","8",".",".","7","9"]
+]
+print(s.isValidSudoku(board))
