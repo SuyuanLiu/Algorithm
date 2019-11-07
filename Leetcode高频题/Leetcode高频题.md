@@ -29,3 +29,4 @@
 | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/)| [code](search.py) | √       |         |         | 🌟    |
 | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [code](searchRange.py) |√       |         |         | |
 | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [code](isValidSudoku.py)| √       |         |         | 🌟    |
+| [38. Count and Say](https://leetcode.com/problems/count-and-say/)| [code](countAndSay.py)| √       |         |         | 🌟    |
