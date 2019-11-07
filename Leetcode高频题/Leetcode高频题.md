@@ -27,3 +27,4 @@
 | [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [code](strStr.py) | √       |         |         |     |
 | [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [code](divide.py)  | √       |         |         |     |
 | [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/)| [code](search.py) | √       |         |         | 🌟    |
+| [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [code](searchRange.py) |√       |         |         | |
