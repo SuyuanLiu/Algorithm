@@ -32,3 +32,4 @@
 | [38. Count and Say](https://leetcode.com/problems/count-and-say/)                                                                                     | [code](countAndSay.py)              | √       |         |         | 🌟                          |
 
 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)| [code](firstMissingPositive.py) | √ | | | 🌟 |
+| [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [code](trap.py) | √ | | | 🌟 |
