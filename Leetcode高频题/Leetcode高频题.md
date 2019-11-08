@@ -3,30 +3,32 @@
 目标：刷三遍  
 方法：第一遍简单过一遍，5 分钟没 idea 就看答案；第二遍自己思考；第三遍做题并总结。
 
-| Problem                                                                                                                            | Solution                            | Epoch 1 | Epoch 2 | Epoch 3 | Notes |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------- | ------- | ------- | ----- |
-| [1. Two Sum](https://leetcode.com/problems/two-sum/)                                                                               | [code](twoSum.py)                   | √       |
-| [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                               | [code](addTwoNumbers.py)            | √       |
-| [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [code](lengthOfLongestSubstring.py) | √       |
-| [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                                       | [code](findMedianSortedArrays.py)   | √       |         |         | 🌟    |
-| [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)                                   | [code](longestPalindrome.py)        | √       |         |         | 🌟    |
-| [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                                               | [code](reverse.py)                  | √       |         |         | 🌟    |
-| [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)                                               | [code](myAtoi.py)                   | √       |
-| [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)                                      | [code](isMatch.py)                  | √       |         |         | 🌟    |
-| [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                                          | [code](maxArea.py)                  | √       |         |         | 🌟    |
-| [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                                            | [code](romanToInt.py)               | √       |         |         |       |
-| [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                                  | [code](longestCommonPrefix.py)      | √       |         |         |       |
-| [15. 3Sum](https://leetcode.com/problems/3sum/)                                                                                    | [code](threeSum.py)                 | √       |         |         | 🌟    |
-| [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [code](letterCombinations.py) | √       |         |         |     |
-| [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [code](removeNthFromEnd.py) | √       |         |         |     |
-| [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [code](isValid.py) | √       |         |         |     |
-| [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [code](mergeTwoLists.py) | √       |         |         |     |
-| [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [code](generateParenthesis.py) | √       |         |         |     |
-| [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [code](mergeKLists.py) | √       |         |         |  TODO: Priority Queue Method   |
-| [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [code](removeDuplicates.py)| √       |         |         |     |
-| [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [code](strStr.py) | √       |         |         |     |
-| [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [code](divide.py)  | √       |         |         |     |
-| [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/)| [code](search.py) | √       |         |         | 🌟    |
-| [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [code](searchRange.py) |√       |         |         | |
-| [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)| [code](isValidSudoku.py)| √       |         |         | 🌟    |
-| [38. Count and Say](https://leetcode.com/problems/count-and-say/)| [code](countAndSay.py)| √       |         |         | 🌟    |
+| Problem                                                                                                                                               | Solution                            | Epoch 1 | Epoch 2 | Epoch 3 | Notes                       |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------- | ------- | ------- | --------------------------- |
+| [1. Two Sum](https://leetcode.com/problems/two-sum/)                                                                                                  | [code](twoSum.py)                   | √       |
+| [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                                                  | [code](addTwoNumbers.py)            | √       |
+| [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                    | [code](lengthOfLongestSubstring.py) | √       |
+| [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                                                          | [code](findMedianSortedArrays.py)   | √       |         |         | 🌟                          |
+| [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)                                                      | [code](longestPalindrome.py)        | √       |         |         | 🌟                          |
+| [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                                                                  | [code](reverse.py)                  | √       |         |         | 🌟                          |
+| [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)                                                                  | [code](myAtoi.py)                   | √       |
+| [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)                                                         | [code](isMatch.py)                  | √       |         |         | 🌟                          |
+| [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                                                             | [code](maxArea.py)                  | √       |         |         | 🌟                          |
+| [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                                                               | [code](romanToInt.py)               | √       |         |         |                             |
+| [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                                                     | [code](longestCommonPrefix.py)      | √       |         |         |                             |
+| [15. 3Sum](https://leetcode.com/problems/3sum/)                                                                                                       | [code](threeSum.py)                 | √       |         |         | 🌟                          |
+| [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)                                     | [code](letterCombinations.py)       | √       |         |         |                             |
+| [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)                                               | [code](removeNthFromEnd.py)         | √       |         |         |                             |
+| [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                                                                             | [code](isValid.py)                  | √       |         |         |                             |
+| [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                                                                   | [code](mergeTwoLists.py)            | √       |         |         |                             |
+| [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                                                                       | [code](generateParenthesis.py)      | √       |         |         |                             |
+| [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                                                       | [code](mergeKLists.py)              | √       |         |         | TODO: Priority Queue Method |
+| [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)                                         | [code](removeDuplicates.py)         | √       |         |         |                             |
+| [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                                                             | [code](strStr.py)                   | √       |         |         |                             |
+| [29. Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)                                                                         | [code](divide.py)                   | √       |         |         |                             |
+| [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/)                                       | [code](search.py)                   | √       |         |         | 🌟                          |
+| [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [code](searchRange.py)              | √       |         |         |                             |
+| [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                                                                       | [code](isValidSudoku.py)            | √       |         |         | 🌟                          |
+| [38. Count and Say](https://leetcode.com/problems/count-and-say/)                                                                                     | [code](countAndSay.py)              | √       |         |         | 🌟                          |
+
+| [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)| [code](firstMissingPositive.py) | √ | | | 🌟 |

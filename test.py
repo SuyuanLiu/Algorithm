@@ -1,41 +1,26 @@
 class Solution:
-    def isValidSudoku(self, board):
-        from collections import defaultdict
-        dic = defaultdict(list)
-        for i in range(len(board)):
-            for j in range(len(board)):
-                if board[i][j] != '.':
-                    dic[board[i][j]].append((i,j))
-
+    def firstMissingPositive(self, nums):
+        if not nums:
+            return 1
         
-
-        for num in dic.keys():
-            positions = dic[num]
-            print(positions)
-            import pdb; pdb.set_trace()
-            pos_x, pos_y = [], []
-            for pos in positions:
-                i, j = pos[0], pos[1]
-                print(i,j)
-                print(pos_x, pos_y)
-                import pdb; pdb.set_trace()
-                if i in pos_x or j in pos_y or (i // 3 in pos_x and j // 3 in pos_y):
-                    return False
+        i = 0
+        # import pdb; pdb.set_trace()
+        while i < len(nums):
+            if 0 < nums[i] <= len(nums):
+                if nums[i] != i + 1:
+                    idx = nums[i] - 1
+                    nums[i], nums[idx] = nums[idx], nums[i]
                 else:
-                    pos_x.append(i)
-                    pos_y.append(j)
-        return True
+                    i += 1
+            else:
+                nums[i] = -1
+                i += 1
+        
+        for i in range(len(nums)):
+            if nums[i] == -1:
+                return i + 1
+        return len(nums) + 1
 
 s = Solution()
-board = [
-  ["5","3",".",".","7",".",".",".","."],
-  ["6",".",".","1","9","5",".",".","."],
-  [".","9","8",".",".",".",".","6","."],
-  ["8",".",".",".","6",".",".",".","3"],
-  ["4",".",".","8",".","3",".",".","1"],
-  ["7",".",".",".","2",".",".",".","6"],
-  [".","6",".",".",".",".","2","8","."],
-  [".",".",".","4","1","9",".",".","5"],
-  [".",".",".",".","8",".",".","7","9"]
-]
-print(s.isValidSudoku(board))
+nums = [3,4,-1,1]
+print(s.firstMissingPositive(nums))
