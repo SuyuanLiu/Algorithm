@@ -33,3 +33,4 @@
 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)| [code](firstMissingPositive.py) | √ | | | 🌟 |
 | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)| [code](trap.py) | √ | | | 🌟 |
 | [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [code](isMatchII.py) | √ | | | 🌟 |
+| [46. Permutations](https://leetcode.com/problems/permutations/) | [code](permute.py) | √ | | |  |

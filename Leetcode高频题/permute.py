@@ -1,5 +1,10 @@
+'''
+@lsy 2019.11.10
+
+分不清backtracking与DFS的区别。
+'''
 class Solution:
-    def permute(self, nums) :
+    def permute(self, nums: List[int]) -> List[List[int]]:
         if not nums:
             return []
         
@@ -18,7 +23,3 @@ class Solution:
     
     
         
-    
-nums = [1,2,3]
-s = Solution()
-print(s.permute(nums))        
