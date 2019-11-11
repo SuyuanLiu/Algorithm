@@ -35,5 +35,4 @@
 | [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)                                                                             | [code](isMatchII.py)                | √       |         |         | 🌟                          |
 | [46. Permutations](https://leetcode.com/problems/permutations/)                                                                                       | [code](permute.py)                  | √       |         |         |                             |
 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/)                                                                                       | [code](rotate.py)                   | √       |         |         | 🌟                          |
-
-| [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [code](groupAnagrams.py) | √ | | | 🌟 |
+| [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                                                   | [code](groupAnagrams.py)            | √       |         |         | 🌟                          |
