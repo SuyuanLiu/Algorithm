@@ -38,3 +38,4 @@
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                                                   | [code](groupAnagrams.py)            | √       |         |         | 🌟                          |
 | [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)                                                                                                | [code](myPow.py)                    | √       |         |         | 🌟                          |
 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [code](maxSubArray.py) | √       |         |         | 🌟                          |
+| [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [code](spiralOrder.py)| √       |         |         | 🌟                          |
