@@ -41,3 +41,4 @@
 | [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [code](spiralOrder.py)| √       |         |         | 🌟                          |
 | [55. Jump Game](https://leetcode.com/problems/jump-game/)| [code](canJump.py)| √       |         |         | 🌟                          |
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/submissions/) | [code](merge.py)| √       |         |         ||
+| [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | [code](uniquePaths.py)| √       |         |         ||
