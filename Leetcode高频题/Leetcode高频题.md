@@ -1,5 +1,7 @@
 # Leetcode 高频题
 
+网页链接：https://leetcode.com/problemset/top-interview-questions/
+
 目标：刷三遍  
 方法：第一遍简单过一遍，5 分钟没 idea 就看答案；第二遍自己思考；第三遍做题并总结。
 
@@ -42,3 +44,4 @@
 | [55. Jump Game](https://leetcode.com/problems/jump-game/)| [code](canJump.py)| √       |         |         | 🌟                          |
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/submissions/) | [code](merge.py)| √       |         |         ||
 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | [code](uniquePaths.py)| √       |         |         ||
+| [66. Plus One](https://leetcode.com/problems/plus-one/) | [code](plusOne.py) |√       |         |         ||

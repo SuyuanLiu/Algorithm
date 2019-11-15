@@ -1,5 +1,8 @@
+'''
+@lsy 2019.11.15
+'''
 class Solution:
-    def plusOne(self, digits):
+    def plusOne(self, digits: List[int]) -> List[int]:
         carry = 1
         
         for i in range(len(digits) - 1, -1, -1):
@@ -12,7 +15,3 @@ class Solution:
             digits.insert(0, 1)
         
         return digits
-
-s = Solution()
-digits = [1,2,3]
-print(s.plusOne(digits))
