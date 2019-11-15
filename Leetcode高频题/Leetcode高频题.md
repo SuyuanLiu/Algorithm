@@ -45,3 +45,4 @@
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/submissions/) | [code](merge.py)| √       |         |         ||
 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | [code](uniquePaths.py)| √       |         |         ||
 | [66. Plus One](https://leetcode.com/problems/plus-one/) | [code](plusOne.py) |√       |         |         ||
+| [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [code](mySqrt.py)|√       |         |         ||
