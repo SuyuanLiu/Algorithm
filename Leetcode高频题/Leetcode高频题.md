@@ -46,3 +46,4 @@
 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | [code](uniquePaths.py)| √       |         |         ||
 | [66. Plus One](https://leetcode.com/problems/plus-one/) | [code](plusOne.py) |√       |         |         ||
 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [code](mySqrt.py)|√       |         |         ||
+| [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/submissions/)| [code](climbStairs.py)|√       |         |         ||
