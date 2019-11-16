@@ -39,11 +39,13 @@
 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/)                                                                                       | [code](rotate.py)                   | √       |         |         | 🌟                          |
 | [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                                                   | [code](groupAnagrams.py)            | √       |         |         | 🌟                          |
 | [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)                                                                                                | [code](myPow.py)                    | √       |         |         | 🌟                          |
-| [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [code](maxSubArray.py) | √       |         |         | 🌟                          |
-| [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [code](spiralOrder.py)| √       |         |         | 🌟                          |
-| [55. Jump Game](https://leetcode.com/problems/jump-game/)| [code](canJump.py)| √       |         |         | 🌟                          |
-| [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/submissions/) | [code](merge.py)| √       |         |         ||
-| [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | [code](uniquePaths.py)| √       |         |         ||
-| [66. Plus One](https://leetcode.com/problems/plus-one/) | [code](plusOne.py) |√       |         |         ||
-| [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [code](mySqrt.py)|√       |         |         ||
-| [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/submissions/)| [code](climbStairs.py)|√       |         |         ||
+| [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                                                               | [code](maxSubArray.py)              | √       |         |         | 🌟                          |
+| [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                     | [code](spiralOrder.py)              | √       |         |         | 🌟                          |
+| [55. Jump Game](https://leetcode.com/problems/jump-game/)                                                                                             | [code](canJump.py)                  | √       |         |         | 🌟                          |
+| [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/submissions/)                                                                     | [code](merge.py)                    | √       |         |         |                             |
+| [62. Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                                       | [code](uniquePaths.py)              | √       |         |         |                             |
+| [66. Plus One](https://leetcode.com/problems/plus-one/)                                                                                               | [code](plusOne.py)                  | √       |         |         |                             |
+| [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)                                                                                                   | [code](mySqrt.py)                   | √       |         |         |                             |
+| [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/submissions/)                                                                     | [code](climbStairs.py)              | √       |         |         |                             |
+| []()                                                                                                                                                  |
+| [75. Sort Colors](https://leetcode.com/problems/sort-colors/)                                                                                         | [code](sortColors.py)               | √       |         |         |                             |
