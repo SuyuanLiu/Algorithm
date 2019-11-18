@@ -51,3 +51,4 @@
 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/)                                                                                         | [code](sortColors.py)               | √       |         |         |                             |
 | [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [code](minWindow.py) | √       |         |         | 🌟   🌟                       |
 | [78. Subsets](https://leetcode.com/problems/subsets/) | [code](subsets.py)| √       |         |         |                             |
+| [79. Word Search](https://leetcode.com/problems/word-search/) | [code](exist.py)| √       |         |         |                             |
