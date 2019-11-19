@@ -1,6 +1,3 @@
-import collections
-s = 'hello world'
-dic = collections.Counter(s)
-print(dic)
-print(dic['h'])
-print(dic['s'])
+s = 'abc'
+for i, c in enumerate(s, 1):
+    print(i, c)

@@ -54,3 +54,4 @@
 | [79. Word Search](https://leetcode.com/problems/word-search/) | [code](exist.py)| √       |         |         |                             |
 | [84. Largest Rectangle in Histogram]
 | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| [code](mergeNums.py)| √       |         |         |                |
+| [91. Decode Ways](https://leetcode.com/problems/decode-ways/)| [code](numDecodings.py)| √       |         |         |        🌟        |
