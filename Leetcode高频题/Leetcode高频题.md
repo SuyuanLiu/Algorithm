@@ -52,3 +52,5 @@
 | [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [code](minWindow.py) | √       |         |         | 🌟   🌟                       |
 | [78. Subsets](https://leetcode.com/problems/subsets/) | [code](subsets.py)| √       |         |         |                             |
 | [79. Word Search](https://leetcode.com/problems/word-search/) | [code](exist.py)| √       |         |         |                             |
+| [84. Largest Rectangle in Histogram]
+| [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)| [code](mergeNums.py)| √       |         |         |                |
