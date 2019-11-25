@@ -65,3 +65,4 @@
 | [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)                               | [code](sortedArrayToBST.py)         | √       |         |         |                             |
 | [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)                             | [code](connect.py)                  | √       |         |         |                             |
 | [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                                                                  | [code](generate.py)                 | √       |         |         |                             |
+| [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [code](maxProfit.py)| √       |         |         |                             |
