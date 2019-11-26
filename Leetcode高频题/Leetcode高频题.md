@@ -68,3 +68,4 @@
 | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [code](maxProfit.py)| √       |         |         |                             |
 | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [code](maxProfitII.py)| √       |         |         |                             |
 | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| [code](maxPathSum.py)| √       |         |         | 🌟                          |
+| [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [code](isPalindrome.py)| √       |         |         |                             |
