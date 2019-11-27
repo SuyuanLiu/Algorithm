@@ -1,3 +1,4 @@
-s = 'abc'
-for i, c in enumerate(s, 1):
-    print(i, c)
+dic = {1:2}
+
+a = 1 in dic.keys()
+print(a)

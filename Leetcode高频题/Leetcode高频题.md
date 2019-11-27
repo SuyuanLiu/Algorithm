@@ -70,3 +70,4 @@
 | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)| [code](maxPathSum.py)| √       |         |         | 🌟                          |
 | [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [code](isPalindrome.py)| √       |         |         |                             |
 | [127. Word Ladder](https://leetcode.com/problems/word-ladder/) | [code](ladderLength.py)| √       |         |         | 🌟                          |
+| [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)| [code](longestConsecutive.py)| √       |         |         | 🌟                          |
