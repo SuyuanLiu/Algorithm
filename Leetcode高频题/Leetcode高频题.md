@@ -73,3 +73,4 @@
 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)| [code](longestConsecutive.py)| √       |         |         | 🌟                          |
 | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)| [code](solve.py)| √       |         |         | 🌟                          |
 | [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)| [code](partition.py)| √       |         |         | 🌟                          |
+| [134. Gas Station](https://leetcode.com/problems/gas-station/) | [code](canCompleteCircuit.py)| √       |         |         | 🌟                          |
