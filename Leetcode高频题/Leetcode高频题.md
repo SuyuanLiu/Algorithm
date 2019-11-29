@@ -74,3 +74,4 @@
 | [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)| [code](solve.py)| √       |         |         | 🌟                          |
 | [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)| [code](partition.py)| √       |         |         | 🌟                          |
 | [134. Gas Station](https://leetcode.com/problems/gas-station/) | [code](canCompleteCircuit.py)| √       |         |         | 🌟                          |
+| [136. Single Number](https://leetcode.com/problems/single-number/)| [code](singleNumber.py)| √       |         |         |                       |
