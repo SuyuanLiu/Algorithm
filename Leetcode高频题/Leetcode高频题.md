@@ -75,3 +75,4 @@
 | [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)| [code](partition.py)| √       |         |         | 🌟                          |
 | [134. Gas Station](https://leetcode.com/problems/gas-station/) | [code](canCompleteCircuit.py)| √       |         |         | 🌟                          |
 | [136. Single Number](https://leetcode.com/problems/single-number/)| [code](singleNumber.py)| √       |         |         |                       |
+| [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [code](copyRandomList.py) √       |         |         | 🌟                          |
