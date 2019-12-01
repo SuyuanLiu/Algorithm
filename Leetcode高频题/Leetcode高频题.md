@@ -77,3 +77,4 @@
 | [136. Single Number](https://leetcode.com/problems/single-number/)                                                                                         | [code](singleNumber.py)             | √       |         |         |                             |
 | [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                         | [code](copyRandomList.py)           | √       |         |         | 🌟                          |
 | [139. Word Break](https://leetcode.com/problems/word-break/)                                                                                               | [code](wordBreak.py)                | √       |         |         |                             |
+| [140. Word Break II](https://leetcode.com/problems/word-break-ii/)|[code](wordBreakII.py)| √       |         |         | 🌟                          |

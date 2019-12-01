@@ -30,4 +30,5 @@ class Solution:
 x = Solution()
 s = "leetcode"
 wordDict = ["leet", "code"]
-print(x.wordBreak(s, wordDict))
+# print(x.wordBreak(s, wordDict))
+print(s.startswith('le'))
