@@ -79,3 +79,4 @@
 | [139. Word Break](https://leetcode.com/problems/word-break/)                                                                                               | [code](wordBreak.py)                | √       |         |         |                             |
 | [140. Word Break II](https://leetcode.com/problems/word-break-ii/)|[code](wordBreakII.py)| √       |         |         | 🌟                          |
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| [code](hasCycle.py)| √       |         |        |                          |
+| [146. LRU Cache](https://leetcode.com/problems/lru-cache/)| 讲解链接https://zhuanlan.zhihu.com/p/57733537
