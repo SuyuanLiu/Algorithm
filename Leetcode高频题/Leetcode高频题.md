@@ -80,3 +80,4 @@
 | [140. Word Break II](https://leetcode.com/problems/word-break-ii/)|[code](wordBreakII.py)| √       |         |         | 🌟                          |
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| [code](hasCycle.py)| √       |         |        |                          |
 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/)| [code](LRUCache.py)| √       |         |         | 🌟                          |
+| [148. Sort List](https://leetcode.com/problems/sort-list/) | [code](sortList.py)| √       |         |         |                         |
