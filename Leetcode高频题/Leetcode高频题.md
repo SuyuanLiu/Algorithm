@@ -81,3 +81,4 @@
 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| [code](hasCycle.py)| √       |         |        |                          |
 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/)| [code](LRUCache.py)| √       |         |         | 🌟                          |
 | [148. Sort List](https://leetcode.com/problems/sort-list/) | [code](sortList.py)| √       |         |         |                         |
+| [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)| [code](maxPoints.py)| √       |         |         | 🌟                          |
