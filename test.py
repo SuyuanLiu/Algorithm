@@ -1,34 +1,44 @@
-class Solution:
-    def wordBreak(self, s, wordDict):
-        if not s:
-            return True
-        if not wordDict:
-            return False
-
-        dp = [False for _ in range(len(s) + 1)]
-        dp[0] = True
-        wordDict = sorted(wordDict, key=lambda x: len(x))
-
-        # import pdb
-        # pdb.set_trace()
-
-        for i in range(len(s)):
-            if i < len(wordDict[0]) - 1:
-                continue
-            for word in wordDict:
-                if i < len(word) - 1:
-                    break
-                # print(s[i - len(word) + 1:i + 1])
-                if s[i - len(word) + 1:i + 1] == word and dp[i - len(word) +
-                                                             1]:
-                    dp[i + 1] = True
-                    break
-
-        return dp[-1]
-
-
-x = Solution()
-s = "leetcode"
-wordDict = ["leet", "code"]
-# print(x.wordBreak(s, wordDict))
-print(s.startswith('le'))
+# class Solution:
+#     def evalRPN(self, tokens):
+#         stack = []
+        
+#         for n in tokens:
+#             if n not in ['*', '/', '+', '-']:
+#                 stack.append(self.str2int(n))
+#             else:
+#                 num1 = stack.pop()
+#                 num2 = stack.pop()
+#                 import pdb; pdb.set_trace()
+#                 print(num2, num1, self.calculate(num2, num1, n))
+                
+#                 stack.append(self.calculate(num2, num1, n))
+#         return stack.pop()
+                
+    
+#     def calculate(self, num1, num2, op):
+#         if op == '+':
+#             return num1 + num2
+#         if op == '-':
+#             return num1 - num2
+#         if op == '*':
+#             return num1 * num2
+#         if op == '/':
+#             return num1 // num2
+            
+            
+#     def str2int(self, s):
+#         num = 0
+#         for i, c in enumerate(s[::-1]):
+#             if i == len(s) - 1 and c == '-':
+#                 num = -num
+#             else:
+#                 num += int(c) * pow(10, i)
+#         return num
+            
+# x = Solution()
+# s = ["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]
+# print(x.evalRPN(s))
+a = 6
+b = -132
+c = int(a / b)
+print(c)
