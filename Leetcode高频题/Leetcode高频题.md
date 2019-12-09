@@ -84,3 +84,4 @@
 | [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)| [code](maxPoints.py)| √       |         |         | 🌟               |
 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [code](evalRPN.py)| √       |         |         |      |
 | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)| [code](maxProduct.py)| √       |         |         | 🌟               |
+| [155. Min Stack](https://leetcode.com/problems/min-stack/)| [code](MinStack.py)| √       |         |         | 🌟               |
