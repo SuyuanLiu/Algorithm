@@ -85,3 +85,4 @@
 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [code](evalRPN.py)| √       |         |         |      |
 | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)| [code](maxProduct.py)| √       |         |         | 🌟               |
 | [155. Min Stack](https://leetcode.com/problems/min-stack/)| [code](MinStack.py)| √       |         |         | 🌟               |
+| [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[code](getIntersectionNode.py)| √       |         |         |                |
