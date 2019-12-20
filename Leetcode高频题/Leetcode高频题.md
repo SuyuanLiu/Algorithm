@@ -87,3 +87,4 @@
 | [155. Min Stack](https://leetcode.com/problems/min-stack/)| [code](MinStack.py)| √       |         |         | 🌟               |
 | [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[code](getIntersectionNode.py)| √       |         |         |                |
 | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [code](findPeakElement.py)| √       |         |         |                |
+|[166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)| [code](fractionToDecimal.py)| √       |         |         |   🌟             |
