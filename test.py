@@ -38,7 +38,5 @@
 # x = Solution()
 # s = ["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]
 # print(x.evalRPN(s))
-a = 6
-b = -132
-c = int(a / b)
-print(c)
+
+print(ord('A'))

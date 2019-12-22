@@ -89,3 +89,4 @@
 | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [code](findPeakElement.py)| √       |         |         |                |
 |[166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/)| [code](fractionToDecimal.py)| √       |         |         |   🌟             |
 | [169. Majority Element](https://leetcode.com/problems/majority-element/)| [code](majorityElement.py)| √       |         |         |              |
+| [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [code](titleToNumber.py)| √       |         |         |              |
