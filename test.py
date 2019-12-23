@@ -39,4 +39,8 @@
 # s = ["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]
 # print(x.evalRPN(s))
 
-print(ord('A'))
+a = [3,30,34,5,9]
+b = [str(n) for n in a]
+print(b)
+b.sort(reverse=True)
+print(b)

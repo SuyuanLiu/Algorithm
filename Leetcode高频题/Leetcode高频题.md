@@ -91,3 +91,4 @@
 | [169. Majority Element](https://leetcode.com/problems/majority-element/)| [code](majorityElement.py)| √       |         |         |              |
 | [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | [code](titleToNumber.py)| √       |         |         |              |
 | [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)| [code](trailingZeroes.py)| √       |         |         | 🌟               |
+| [179. Largest Number](https://leetcode.com/problems/largest-number/)| [code](largestNumber.py)| √       |         |         | 🌟               |
