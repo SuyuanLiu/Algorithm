@@ -93,3 +93,4 @@
 | [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)| [code](trailingZeroes.py)| √       |         |         | 🌟               |
 | [179. Largest Number](https://leetcode.com/problems/largest-number/)| [code](largestNumber.py)| √       |         |         | 🌟               |
 | [189. Rotate Array](https://leetcode.com/problems/rotate-array/)| [code](rotateNums.py)| √       |         |         |   |
+| [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)| [code](reverseBits.py)| √       |         |         | 🌟               |
