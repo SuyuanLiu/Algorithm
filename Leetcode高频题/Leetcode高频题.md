@@ -96,3 +96,4 @@
 | [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)| [code](reverseBits.py)| √       |         |         | 🌟               |
 | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [code](hammingWeight.py)| √       |         |         |               |
 | [198. House Robber](https://leetcode.com/problems/house-robber/)| [code](rob.py)| √       |         |         | 🌟               |
+| [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)|[code](numIslands.py)| √       |         |         | |
