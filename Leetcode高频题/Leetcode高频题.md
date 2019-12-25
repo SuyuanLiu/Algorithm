@@ -98,3 +98,4 @@
 | [198. House Robber](https://leetcode.com/problems/house-robber/)| [code](rob.py)| √       |         |         | 🌟               |
 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)|[code](numIslands.py)| √       |         |         | |
 | [202. Happy Number](https://leetcode.com/problems/happy-number/)| [code](isHappy.py)| √       |         |         | 🌟               |
+| [204. Count Primes](https://leetcode.com/problems/count-primes/)| [code](countPrimes.py)| √       |         |         | 🌟               |
