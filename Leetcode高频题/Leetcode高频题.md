@@ -99,3 +99,4 @@
 | [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)|[code](numIslands.py)| √       |         |         | |
 | [202. Happy Number](https://leetcode.com/problems/happy-number/)| [code](isHappy.py)| √       |         |         | 🌟               |
 | [204. Count Primes](https://leetcode.com/problems/count-primes/)| [code](countPrimes.py)| √       |         |         | 🌟               |
+| [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [code](reverseList.py)| √       |         |         |           |
