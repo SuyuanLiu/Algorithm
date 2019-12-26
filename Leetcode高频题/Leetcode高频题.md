@@ -100,3 +100,4 @@
 | [202. Happy Number](https://leetcode.com/problems/happy-number/)| [code](isHappy.py)| √       |         |         | 🌟               |
 | [204. Count Primes](https://leetcode.com/problems/count-primes/)| [code](countPrimes.py)| √       |         |         | 🌟               |
 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [code](reverseList.py)| √       |         |         |           |
+| [207. Course Schedule](https://leetcode.com/problems/course-schedule/)| [code](canFinish.py)| √       |         |         | 🌟               |
